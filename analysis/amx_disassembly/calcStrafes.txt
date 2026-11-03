@@ -1,0 +1,1732 @@
+VALIDATED structural region calcStrafes C=[182596,192488)
+C:code-relative I:image-absolute D:data-relative FRM:signed frame-relative
+Raw operands remain signed decimal cells; no metric semantics inferred.
+C=182596 I=0187508 bytes=2e000000 op=46:PROC operands=[] length=4
+C=182600 I=0187512 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4621
+C=182604 I=0187516 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4623
+C=182608 I=0187520 bytes=0c000000780c0400 op=12:CONST_ALT operands=[265336] length=8 g_iFrameCount (candidate: constant equals global D address; possible address materialization)
+C=182616 I=0187528 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=182624 I=0187536 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=182632 I=0187544 bytes=19000000 op=25:LIDX operands=[] length=4
+C=182636 I=0187548 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=182640 I=0187552 bytes=0b000000f4010000 op=11:CONST_PRI operands=[500] length=8
+C=182648 I=0187560 bytes=3f0000008cc90200 op=63:JSGRTR operands=[182668] length=8 target C=182668 inside-region
+C=182656 I=0187568 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4624
+C=182660 I=0187572 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=182664 I=0187576 bytes=30000000 op=48:RETN operands=[] length=4
+C=182668 I=0187580 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4626
+C=182672 I=0187584 bytes=0c000000fcf30400 op=12:CONST_ALT operands=[324604] length=8 g_iStrafeCount (candidate: constant equals global D address; possible address materialization)
+C=182680 I=0187592 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=182688 I=0187600 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=182696 I=0187608 bytes=19000000 op=25:LIDX operands=[] length=4
+C=182700 I=0187612 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=182704 I=0187616 bytes=0b00000032000000 op=11:CONST_PRI operands=[50] length=8
+C=182712 I=0187624 bytes=3f000000ccc90200 op=63:JSGRTR operands=[182732] length=8 target C=182732 inside-region
+C=182720 I=0187632 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4627
+C=182724 I=0187636 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=182728 I=0187640 bytes=30000000 op=48:RETN operands=[] length=4
+C=182732 I=0187644 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4629
+C=182736 I=0187648 bytes=2c000000f0ffffff op=44:STACK operands=[-16] length=8
+C=182744 I=0187656 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=182748 I=0187660 bytes=0e000000f0ffffff op=14:ADDR_ALT operands=[-16] length=8 new_WSAD (confirmed address: frame address formation)
+C=182756 I=0187668 bytes=7700000010000000 op=119:FILL operands=[16] length=8
+C=182764 I=0187676 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4630
+C=182768 I=0187680 bytes=0d000000f0ffffff op=13:ADDR_PRI operands=[-16] length=8 new_WSAD (confirmed address: frame address formation)
+C=182776 I=0187688 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=182780 I=0187692 bytes=0c0000004cfe0400 op=12:CONST_ALT operands=[327244] length=8 g_iButtons (candidate: constant equals global D address; possible address materialization)
+C=182788 I=0187700 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=182796 I=0187708 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=182804 I=0187716 bytes=19000000 op=25:LIDX operands=[] length=4
+C=182808 I=0187720 bytes=0c00000008000000 op=12:CONST_ALT operands=[8] length=8
+C=182816 I=0187728 bytes=51000000 op=81:AND operands=[] length=4
+C=182820 I=0187732 bytes=350000003cca0200 op=53:JZER operands=[182844] length=8 target C=182844 inside-region
+C=182828 I=0187740 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=182836 I=0187748 bytes=3300000040ca0200 op=51:JUMP operands=[182848] length=8 target C=182848 inside-region
+C=182844 I=0187756 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=182848 I=0187760 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=182852 I=0187764 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=182856 I=0187768 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4631
+C=182860 I=0187772 bytes=0d000000f0ffffff op=13:ADDR_PRI operands=[-16] length=8 new_WSAD (confirmed address: frame address formation)
+C=182868 I=0187780 bytes=5700000004000000 op=87:ADD_C operands=[4] length=8
+C=182876 I=0187788 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=182880 I=0187792 bytes=0c0000004cfe0400 op=12:CONST_ALT operands=[327244] length=8 g_iButtons (candidate: constant equals global D address; possible address materialization)
+C=182888 I=0187800 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=182896 I=0187808 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=182904 I=0187816 bytes=19000000 op=25:LIDX operands=[] length=4
+C=182908 I=0187820 bytes=0c00000010000000 op=12:CONST_ALT operands=[16] length=8
+C=182916 I=0187828 bytes=51000000 op=81:AND operands=[] length=4
+C=182920 I=0187832 bytes=35000000a0ca0200 op=53:JZER operands=[182944] length=8 target C=182944 inside-region
+C=182928 I=0187840 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=182936 I=0187848 bytes=33000000a4ca0200 op=51:JUMP operands=[182948] length=8 target C=182948 inside-region
+C=182944 I=0187856 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=182948 I=0187860 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=182952 I=0187864 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=182956 I=0187868 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4632
+C=182960 I=0187872 bytes=0d000000f0ffffff op=13:ADDR_PRI operands=[-16] length=8 new_WSAD (confirmed address: frame address formation)
+C=182968 I=0187880 bytes=5700000008000000 op=87:ADD_C operands=[8] length=8
+C=182976 I=0187888 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=182980 I=0187892 bytes=0c0000004cfe0400 op=12:CONST_ALT operands=[327244] length=8 g_iButtons (candidate: constant equals global D address; possible address materialization)
+C=182988 I=0187900 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=182996 I=0187908 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=183004 I=0187916 bytes=19000000 op=25:LIDX operands=[] length=4
+C=183008 I=0187920 bytes=0c00000000020000 op=12:CONST_ALT operands=[512] length=8
+C=183016 I=0187928 bytes=51000000 op=81:AND operands=[] length=4
+C=183020 I=0187932 bytes=3500000004cb0200 op=53:JZER operands=[183044] length=8 target C=183044 inside-region
+C=183028 I=0187940 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=183036 I=0187948 bytes=3300000008cb0200 op=51:JUMP operands=[183048] length=8 target C=183048 inside-region
+C=183044 I=0187956 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=183048 I=0187960 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183052 I=0187964 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=183056 I=0187968 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4633
+C=183060 I=0187972 bytes=0d000000f0ffffff op=13:ADDR_PRI operands=[-16] length=8 new_WSAD (confirmed address: frame address formation)
+C=183068 I=0187980 bytes=570000000c000000 op=87:ADD_C operands=[12] length=8
+C=183076 I=0187988 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=183080 I=0187992 bytes=0c0000004cfe0400 op=12:CONST_ALT operands=[327244] length=8 g_iButtons (candidate: constant equals global D address; possible address materialization)
+C=183088 I=0188000 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=183096 I=0188008 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=183104 I=0188016 bytes=19000000 op=25:LIDX operands=[] length=4
+C=183108 I=0188020 bytes=0c00000000040000 op=12:CONST_ALT operands=[1024] length=8
+C=183116 I=0188028 bytes=51000000 op=81:AND operands=[] length=4
+C=183120 I=0188032 bytes=3500000068cb0200 op=53:JZER operands=[183144] length=8 target C=183144 inside-region
+C=183128 I=0188040 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=183136 I=0188048 bytes=330000006ccb0200 op=51:JUMP operands=[183148] length=8 target C=183148 inside-region
+C=183144 I=0188056 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=183148 I=0188060 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183152 I=0188064 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=183156 I=0188068 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4635
+C=183160 I=0188072 bytes=2c000000f0ffffff op=44:STACK operands=[-16] length=8
+C=183168 I=0188080 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=183172 I=0188084 bytes=0e000000e0ffffff op=14:ADDR_ALT operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=183180 I=0188092 bytes=7700000010000000 op=119:FILL operands=[16] length=8
+C=183188 I=0188100 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4636
+C=183192 I=0188104 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=183200 I=0188112 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=183204 I=0188116 bytes=0c000000d0fe0400 op=12:CONST_ALT operands=[327376] length=8 g_iPrevButtons (candidate: constant equals global D address; possible address materialization)
+C=183212 I=0188124 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=183220 I=0188132 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=183228 I=0188140 bytes=19000000 op=25:LIDX operands=[] length=4
+C=183232 I=0188144 bytes=0c00000008000000 op=12:CONST_ALT operands=[8] length=8
+C=183240 I=0188152 bytes=51000000 op=81:AND operands=[] length=4
+C=183244 I=0188156 bytes=35000000e4cb0200 op=53:JZER operands=[183268] length=8 target C=183268 inside-region
+C=183252 I=0188164 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=183260 I=0188172 bytes=33000000e8cb0200 op=51:JUMP operands=[183272] length=8 target C=183272 inside-region
+C=183268 I=0188180 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=183272 I=0188184 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183276 I=0188188 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=183280 I=0188192 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4637
+C=183284 I=0188196 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=183292 I=0188204 bytes=5700000004000000 op=87:ADD_C operands=[4] length=8
+C=183300 I=0188212 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=183304 I=0188216 bytes=0c000000d0fe0400 op=12:CONST_ALT operands=[327376] length=8 g_iPrevButtons (candidate: constant equals global D address; possible address materialization)
+C=183312 I=0188224 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=183320 I=0188232 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=183328 I=0188240 bytes=19000000 op=25:LIDX operands=[] length=4
+C=183332 I=0188244 bytes=0c00000010000000 op=12:CONST_ALT operands=[16] length=8
+C=183340 I=0188252 bytes=51000000 op=81:AND operands=[] length=4
+C=183344 I=0188256 bytes=3500000048cc0200 op=53:JZER operands=[183368] length=8 target C=183368 inside-region
+C=183352 I=0188264 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=183360 I=0188272 bytes=330000004ccc0200 op=51:JUMP operands=[183372] length=8 target C=183372 inside-region
+C=183368 I=0188280 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=183372 I=0188284 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183376 I=0188288 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=183380 I=0188292 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4638
+C=183384 I=0188296 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=183392 I=0188304 bytes=5700000008000000 op=87:ADD_C operands=[8] length=8
+C=183400 I=0188312 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=183404 I=0188316 bytes=0c000000d0fe0400 op=12:CONST_ALT operands=[327376] length=8 g_iPrevButtons (candidate: constant equals global D address; possible address materialization)
+C=183412 I=0188324 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=183420 I=0188332 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=183428 I=0188340 bytes=19000000 op=25:LIDX operands=[] length=4
+C=183432 I=0188344 bytes=0c00000000020000 op=12:CONST_ALT operands=[512] length=8
+C=183440 I=0188352 bytes=51000000 op=81:AND operands=[] length=4
+C=183444 I=0188356 bytes=35000000accc0200 op=53:JZER operands=[183468] length=8 target C=183468 inside-region
+C=183452 I=0188364 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=183460 I=0188372 bytes=33000000b0cc0200 op=51:JUMP operands=[183472] length=8 target C=183472 inside-region
+C=183468 I=0188380 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=183472 I=0188384 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183476 I=0188388 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=183480 I=0188392 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4639
+C=183484 I=0188396 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=183492 I=0188404 bytes=570000000c000000 op=87:ADD_C operands=[12] length=8
+C=183500 I=0188412 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=183504 I=0188416 bytes=0c000000d0fe0400 op=12:CONST_ALT operands=[327376] length=8 g_iPrevButtons (candidate: constant equals global D address; possible address materialization)
+C=183512 I=0188424 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=183520 I=0188432 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=183528 I=0188440 bytes=19000000 op=25:LIDX operands=[] length=4
+C=183532 I=0188444 bytes=0c00000000040000 op=12:CONST_ALT operands=[1024] length=8
+C=183540 I=0188452 bytes=51000000 op=81:AND operands=[] length=4
+C=183544 I=0188456 bytes=3500000010cd0200 op=53:JZER operands=[183568] length=8 target C=183568 inside-region
+C=183552 I=0188464 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=183560 I=0188472 bytes=3300000014cd0200 op=51:JUMP operands=[183572] length=8 target C=183572 inside-region
+C=183568 I=0188480 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=183572 I=0188484 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183576 I=0188488 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=183580 I=0188492 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4641
+C=183584 I=0188496 bytes=0c00000028030000 op=12:CONST_ALT operands=[808] length=8 g_flFrameGain (candidate: constant equals global D address; possible address materialization)
+C=183592 I=0188504 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=183600 I=0188512 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=183608 I=0188520 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=183612 I=0188524 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=183616 I=0188528 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=183620 I=0188532 bytes=4e000000 op=78:ADD operands=[] length=4
+C=183624 I=0188536 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=183628 I=0188540 bytes=0c000000780c0400 op=12:CONST_ALT operands=[265336] length=8 g_iFrameCount (candidate: constant equals global D address; possible address materialization)
+C=183636 I=0188548 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=183644 I=0188556 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=183652 I=0188564 bytes=19000000 op=25:LIDX operands=[] length=4
+C=183656 I=0188568 bytes=79000000f3010000 op=121:BOUNDS operands=[499] length=8
+C=183664 I=0188576 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183668 I=0188580 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=183672 I=0188584 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=183676 I=0188588 bytes=0300000014000000 op=3:LOAD_S_PRI operands=[20] length=8 flGain (confirmed: direct slot read)
+C=183684 I=0188596 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=183688 I=0188600 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4642
+C=183692 I=0188604 bytes=0c0000007c050100 op=12:CONST_ALT operands=[66940] length=8 g_iFrameWSAD (candidate: constant equals global D address; possible address materialization)
+C=183700 I=0188612 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=183708 I=0188620 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=183716 I=0188628 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=183720 I=0188632 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=183724 I=0188636 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=183728 I=0188640 bytes=4e000000 op=78:ADD operands=[] length=4
+C=183732 I=0188644 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=183736 I=0188648 bytes=0c000000780c0400 op=12:CONST_ALT operands=[265336] length=8 g_iFrameCount (candidate: constant equals global D address; possible address materialization)
+C=183744 I=0188656 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=183752 I=0188664 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=183760 I=0188672 bytes=19000000 op=25:LIDX operands=[] length=4
+C=183764 I=0188676 bytes=79000000f3010000 op=121:BOUNDS operands=[499] length=8
+C=183772 I=0188684 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183776 I=0188688 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=183780 I=0188692 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=183784 I=0188696 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=183792 I=0188704 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=183796 I=0188708 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=183800 I=0188712 bytes=0b00000003000000 op=11:CONST_PRI operands=[3] length=8
+C=183808 I=0188720 bytes=23000000 op=35:XCHG operands=[] length=4
+C=183812 I=0188724 bytes=41000000 op=65:SHL operands=[] length=4
+C=183816 I=0188728 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=183820 I=0188732 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=183828 I=0188740 bytes=5700000004000000 op=87:ADD_C operands=[4] length=8
+C=183836 I=0188748 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=183840 I=0188752 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=183844 I=0188756 bytes=0b00000002000000 op=11:CONST_PRI operands=[2] length=8
+C=183852 I=0188764 bytes=23000000 op=35:XCHG operands=[] length=4
+C=183856 I=0188768 bytes=41000000 op=65:SHL operands=[] length=4
+C=183860 I=0188772 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183864 I=0188776 bytes=52000000 op=82:OR operands=[] length=4
+C=183868 I=0188780 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=183872 I=0188784 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=183880 I=0188792 bytes=5700000008000000 op=87:ADD_C operands=[8] length=8
+C=183888 I=0188800 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=183892 I=0188804 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=183896 I=0188808 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=183904 I=0188816 bytes=23000000 op=35:XCHG operands=[] length=4
+C=183908 I=0188820 bytes=41000000 op=65:SHL operands=[] length=4
+C=183912 I=0188824 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183916 I=0188828 bytes=52000000 op=82:OR operands=[] length=4
+C=183920 I=0188832 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=183924 I=0188836 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=183932 I=0188844 bytes=570000000c000000 op=87:ADD_C operands=[12] length=8
+C=183940 I=0188852 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=183944 I=0188856 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=183948 I=0188860 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=183952 I=0188864 bytes=23000000 op=35:XCHG operands=[] length=4
+C=183956 I=0188868 bytes=41000000 op=65:SHL operands=[] length=4
+C=183960 I=0188872 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183964 I=0188876 bytes=52000000 op=82:OR operands=[] length=4
+C=183968 I=0188880 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=183972 I=0188884 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=183976 I=0188888 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4643
+C=183980 I=0188892 bytes=0c000000d0070200 op=12:CONST_ALT operands=[133072] length=8 g_iFrameDirection (candidate: constant equals global D address; possible address materialization)
+C=183988 I=0188900 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=183996 I=0188908 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184004 I=0188916 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184008 I=0188920 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184012 I=0188924 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=184016 I=0188928 bytes=4e000000 op=78:ADD operands=[] length=4
+C=184020 I=0188932 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184024 I=0188936 bytes=0c000000780c0400 op=12:CONST_ALT operands=[265336] length=8 g_iFrameCount (candidate: constant equals global D address; possible address materialization)
+C=184032 I=0188944 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184040 I=0188952 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184048 I=0188960 bytes=19000000 op=25:LIDX operands=[] length=4
+C=184052 I=0188964 bytes=79000000f3010000 op=121:BOUNDS operands=[499] length=8
+C=184060 I=0188972 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=184064 I=0188976 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184068 I=0188980 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184072 I=0188984 bytes=0c0000007c130500 op=12:CONST_ALT operands=[332668] length=8 g_flPrevAngles (candidate: constant equals global D address; possible address materialization)
+C=184080 I=0188992 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184088 I=0189000 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184096 I=0189008 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184100 I=0189012 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184104 I=0189016 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=184108 I=0189020 bytes=4e000000 op=78:ADD operands=[] length=4
+C=184112 I=0189024 bytes=5700000004000000 op=87:ADD_C operands=[4] length=8
+C=184120 I=0189032 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=184124 I=0189036 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184128 I=0189040 bytes=0c0000006c110500 op=12:CONST_ALT operands=[332140] length=8 g_flAngles (candidate: constant equals global D address; possible address materialization)
+C=184136 I=0189048 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184144 I=0189056 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184152 I=0189064 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184156 I=0189068 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184160 I=0189072 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=184164 I=0189076 bytes=4e000000 op=78:ADD operands=[] length=4
+C=184168 I=0189080 bytes=5700000004000000 op=87:ADD_C operands=[4] length=8
+C=184176 I=0189088 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=184180 I=0189092 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184184 I=0189096 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=184192 I=0189104 bytes=31000000083e0300 op=49:CALL operands=[212488] length=8 target C=212488 outside-region/global-boundary isTurningRight
+C=184200 I=0189112 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=184204 I=0189116 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=184208 I=0189120 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4644
+C=184212 I=0189124 bytes=0c000000240a0300 op=12:CONST_ALT operands=[199204] length=8 g_iFrameStrafe (candidate: constant equals global D address; possible address materialization)
+C=184220 I=0189132 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184228 I=0189140 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184236 I=0189148 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184240 I=0189152 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184244 I=0189156 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=184248 I=0189160 bytes=4e000000 op=78:ADD operands=[] length=4
+C=184252 I=0189164 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184256 I=0189168 bytes=0c000000780c0400 op=12:CONST_ALT operands=[265336] length=8 g_iFrameCount (candidate: constant equals global D address; possible address materialization)
+C=184264 I=0189176 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184272 I=0189184 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184280 I=0189192 bytes=19000000 op=25:LIDX operands=[] length=4
+C=184284 I=0189196 bytes=79000000f3010000 op=121:BOUNDS operands=[499] length=8
+C=184292 I=0189204 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=184296 I=0189208 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184300 I=0189212 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184304 I=0189216 bytes=0c000000fcf30400 op=12:CONST_ALT operands=[324604] length=8 g_iStrafeCount (candidate: constant equals global D address; possible address materialization)
+C=184312 I=0189224 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184320 I=0189232 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184328 I=0189240 bytes=19000000 op=25:LIDX operands=[] length=4
+C=184332 I=0189244 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=184336 I=0189248 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=184340 I=0189252 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4645
+C=184344 I=0189256 bytes=0c000000780c0400 op=12:CONST_ALT operands=[265336] length=8 g_iFrameCount (candidate: constant equals global D address; possible address materialization)
+C=184352 I=0189264 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184360 I=0189272 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184368 I=0189280 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184372 I=0189284 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184376 I=0189288 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=184380 I=0189292 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=184384 I=0189296 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=184388 I=0189300 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=184392 I=0189304 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4647
+C=184396 I=0189308 bytes=0300000018000000 op=3:LOAD_S_PRI operands=[24] length=8 bGround (confirmed: direct slot read)
+C=184404 I=0189316 bytes=54000000 op=84:NOT operands=[] length=4
+C=184408 I=0189320 bytes=350000000cd70200 op=53:JZER operands=[186124] length=8 target C=186124 inside-region
+C=184416 I=0189328 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4650
+C=184420 I=0189332 bytes=2700000000000000 op=39:PUSH_C operands=[0] length=8 MaxClients (candidate: constant equals global D address; possible address materialization)
+C=184428 I=0189340 bytes=3300000080d00200 op=51:JUMP operands=[184448] length=8 target C=184448 inside-region
+C=184436 I=0189348 bytes=89000000 op=137:BREAK operands=[] length=4
+C=184440 I=0189352 bytes=6e000000dcffffff op=110:INC_S operands=[-36] length=8 i (confirmed: direct slot read/write)
+C=184448 I=0189360 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=184456 I=0189368 bytes=0c00000004000000 op=12:CONST_ALT operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=184464 I=0189376 bytes=4000000004d70200 op=64:JSGEQ operands=[186116] length=8 target C=186116 inside-region
+C=184472 I=0189384 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4652
+C=184476 I=0189388 bytes=0c000000780c0400 op=12:CONST_ALT operands=[265336] length=8 g_iFrameCount (candidate: constant equals global D address; possible address materialization)
+C=184484 I=0189396 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184492 I=0189404 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184500 I=0189412 bytes=19000000 op=25:LIDX operands=[] length=4
+C=184504 I=0189416 bytes=6900000001000000 op=105:EQ_C_PRI operands=[1] length=8
+C=184512 I=0189424 bytes=35000000fcd00200 op=53:JZER operands=[184572] length=8 target C=184572 inside-region
+C=184520 I=0189432 bytes=0e000000e0ffffff op=14:ADDR_ALT operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=184528 I=0189440 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=184536 I=0189448 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=184544 I=0189456 bytes=19000000 op=25:LIDX operands=[] length=4
+C=184548 I=0189460 bytes=35000000fcd00200 op=53:JZER operands=[184572] length=8 target C=184572 inside-region
+C=184556 I=0189468 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=184564 I=0189476 bytes=3300000000d10200 op=51:JUMP operands=[184576] length=8 target C=184576 inside-region
+C=184572 I=0189484 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=184576 I=0189488 bytes=35000000d4d30200 op=53:JZER operands=[185300] length=8 target C=185300 inside-region
+C=184584 I=0189496 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4654
+C=184588 I=0189500 bytes=0c000000fc0c0400 op=12:CONST_ALT operands=[265468] length=8 g_iWSADStart (candidate: constant equals global D address; possible address materialization)
+C=184596 I=0189508 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184604 I=0189516 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184612 I=0189524 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184616 I=0189528 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184620 I=0189532 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=184624 I=0189536 bytes=4e000000 op=78:ADD operands=[] length=4
+C=184628 I=0189540 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184632 I=0189544 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=184640 I=0189552 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=184648 I=0189560 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=184652 I=0189564 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184656 I=0189568 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184660 I=0189572 bytes=0c000000780c0400 op=12:CONST_ALT operands=[265336] length=8 g_iFrameCount (candidate: constant equals global D address; possible address materialization)
+C=184668 I=0189580 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184676 I=0189588 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184684 I=0189596 bytes=19000000 op=25:LIDX operands=[] length=4
+C=184688 I=0189600 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184692 I=0189604 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=184700 I=0189612 bytes=50000000 op=80:SUB_ALT operands=[] length=4
+C=184704 I=0189616 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=184708 I=0189620 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=184712 I=0189624 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4655
+C=184716 I=0189628 bytes=0c000000900f0400 op=12:CONST_ALT operands=[266128] length=8 g_iWSADFrames (candidate: constant equals global D address; possible address materialization)
+C=184724 I=0189636 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184732 I=0189644 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184740 I=0189652 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184744 I=0189656 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184748 I=0189660 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=184752 I=0189664 bytes=4e000000 op=78:ADD operands=[] length=4
+C=184756 I=0189668 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184760 I=0189672 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=184768 I=0189680 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=184776 I=0189688 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=184780 I=0189692 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184784 I=0189696 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184788 I=0189700 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=184792 I=0189704 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=184796 I=0189708 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4656
+C=184800 I=0189712 bytes=0c00000024120400 op=12:CONST_ALT operands=[266788] length=8 g_flWSADGain (candidate: constant equals global D address; possible address materialization)
+C=184808 I=0189720 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184816 I=0189728 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184824 I=0189736 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184828 I=0189740 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184832 I=0189744 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=184836 I=0189748 bytes=4e000000 op=78:ADD operands=[] length=4
+C=184840 I=0189752 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184844 I=0189756 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=184852 I=0189764 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=184860 I=0189772 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=184864 I=0189776 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184868 I=0189780 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184872 I=0189784 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=184876 I=0189788 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=184880 I=0189792 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4657
+C=184884 I=0189796 bytes=0c000000b8140400 op=12:CONST_ALT operands=[267448] length=8 g_flWSADLoss (candidate: constant equals global D address; possible address materialization)
+C=184892 I=0189804 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184900 I=0189812 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184908 I=0189820 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184912 I=0189824 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184916 I=0189828 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=184920 I=0189832 bytes=4e000000 op=78:ADD operands=[] length=4
+C=184924 I=0189836 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=184928 I=0189840 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=184936 I=0189848 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=184944 I=0189856 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=184948 I=0189860 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184952 I=0189864 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=184956 I=0189868 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=184960 I=0189872 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=184964 I=0189876 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4658
+C=184968 I=0189880 bytes=0c0000004c170400 op=12:CONST_ALT operands=[268108] length=8 g_iWSADGoodFrames (candidate: constant equals global D address; possible address materialization)
+C=184976 I=0189888 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=184984 I=0189896 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=184992 I=0189904 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=184996 I=0189908 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185000 I=0189912 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=185004 I=0189916 bytes=4e000000 op=78:ADD operands=[] length=4
+C=185008 I=0189920 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185012 I=0189924 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185020 I=0189932 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185028 I=0189940 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=185032 I=0189944 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185036 I=0189948 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185040 I=0189952 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=185044 I=0189956 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=185048 I=0189960 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4659
+C=185052 I=0189964 bytes=0c000000e0190400 op=12:CONST_ALT operands=[268768] length=8 g_iWSADOverlaps (candidate: constant equals global D address; possible address materialization)
+C=185060 I=0189972 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=185068 I=0189980 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=185076 I=0189988 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185080 I=0189992 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185084 I=0189996 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=185088 I=0190000 bytes=4e000000 op=78:ADD operands=[] length=4
+C=185092 I=0190004 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185096 I=0190008 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185104 I=0190016 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185112 I=0190024 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=185116 I=0190028 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185120 I=0190032 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185124 I=0190036 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=185128 I=0190040 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=185132 I=0190044 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4660
+C=185136 I=0190048 bytes=0c000000741c0400 op=12:CONST_ALT operands=[269428] length=8 g_iWSADDesync (candidate: constant equals global D address; possible address materialization)
+C=185144 I=0190056 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=185152 I=0190064 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=185160 I=0190072 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185164 I=0190076 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185168 I=0190080 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=185172 I=0190084 bytes=4e000000 op=78:ADD operands=[] length=4
+C=185176 I=0190088 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185180 I=0190092 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185188 I=0190100 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185196 I=0190108 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=185200 I=0190112 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185204 I=0190116 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185208 I=0190120 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=185212 I=0190124 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=185216 I=0190128 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4661
+C=185220 I=0190132 bytes=0c000000081f0400 op=12:CONST_ALT operands=[270088] length=8 g_flWSADAngle (candidate: constant equals global D address; possible address materialization)
+C=185228 I=0190140 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=185236 I=0190148 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=185244 I=0190156 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185248 I=0190160 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185252 I=0190164 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=185256 I=0190168 bytes=4e000000 op=78:ADD operands=[] length=4
+C=185260 I=0190172 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185264 I=0190176 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185272 I=0190184 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185280 I=0190192 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=185284 I=0190196 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185288 I=0190200 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185292 I=0190204 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=185296 I=0190208 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=185300 I=0190212 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4664
+C=185304 I=0190216 bytes=0e000000f0ffffff op=14:ADDR_ALT operands=[-16] length=8 new_WSAD (confirmed address: frame address formation)
+C=185312 I=0190224 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185320 I=0190232 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185328 I=0190240 bytes=19000000 op=25:LIDX operands=[] length=4
+C=185332 I=0190244 bytes=3500000034d40200 op=53:JZER operands=[185396] length=8 target C=185396 inside-region
+C=185340 I=0190252 bytes=0e000000e0ffffff op=14:ADDR_ALT operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=185348 I=0190260 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185356 I=0190268 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185364 I=0190276 bytes=19000000 op=25:LIDX operands=[] length=4
+C=185368 I=0190280 bytes=54000000 op=84:NOT operands=[] length=4
+C=185372 I=0190284 bytes=3500000034d40200 op=53:JZER operands=[185396] length=8 target C=185396 inside-region
+C=185380 I=0190292 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=185388 I=0190300 bytes=3300000038d40200 op=51:JUMP operands=[185400] length=8 target C=185400 inside-region
+C=185396 I=0190308 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=185400 I=0190312 bytes=35000000fcd60200 op=53:JZER operands=[186108] length=8 target C=186108 inside-region
+C=185408 I=0190320 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4666
+C=185412 I=0190324 bytes=0c000000fc0c0400 op=12:CONST_ALT operands=[265468] length=8 g_iWSADStart (candidate: constant equals global D address; possible address materialization)
+C=185420 I=0190332 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=185428 I=0190340 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=185436 I=0190348 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185440 I=0190352 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185444 I=0190356 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=185448 I=0190360 bytes=4e000000 op=78:ADD operands=[] length=4
+C=185452 I=0190364 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185456 I=0190368 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185464 I=0190376 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185472 I=0190384 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=185476 I=0190388 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185480 I=0190392 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185484 I=0190396 bytes=0c000000780c0400 op=12:CONST_ALT operands=[265336] length=8 g_iFrameCount (candidate: constant equals global D address; possible address materialization)
+C=185492 I=0190404 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=185500 I=0190412 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=185508 I=0190420 bytes=19000000 op=25:LIDX operands=[] length=4
+C=185512 I=0190424 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=185516 I=0190428 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=185520 I=0190432 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4667
+C=185524 I=0190436 bytes=0c000000900f0400 op=12:CONST_ALT operands=[266128] length=8 g_iWSADFrames (candidate: constant equals global D address; possible address materialization)
+C=185532 I=0190444 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=185540 I=0190452 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=185548 I=0190460 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185552 I=0190464 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185556 I=0190468 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=185560 I=0190472 bytes=4e000000 op=78:ADD operands=[] length=4
+C=185564 I=0190476 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185568 I=0190480 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185576 I=0190488 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185584 I=0190496 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=185588 I=0190500 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185592 I=0190504 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185596 I=0190508 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=185600 I=0190512 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=185604 I=0190516 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4668
+C=185608 I=0190520 bytes=0c00000024120400 op=12:CONST_ALT operands=[266788] length=8 g_flWSADGain (candidate: constant equals global D address; possible address materialization)
+C=185616 I=0190528 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=185624 I=0190536 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=185632 I=0190544 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185636 I=0190548 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185640 I=0190552 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=185644 I=0190556 bytes=4e000000 op=78:ADD operands=[] length=4
+C=185648 I=0190560 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185652 I=0190564 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185660 I=0190572 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185668 I=0190580 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=185672 I=0190584 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185676 I=0190588 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185680 I=0190592 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=185684 I=0190596 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=185688 I=0190600 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4669
+C=185692 I=0190604 bytes=0c000000b8140400 op=12:CONST_ALT operands=[267448] length=8 g_flWSADLoss (candidate: constant equals global D address; possible address materialization)
+C=185700 I=0190612 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=185708 I=0190620 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=185716 I=0190628 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185720 I=0190632 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185724 I=0190636 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=185728 I=0190640 bytes=4e000000 op=78:ADD operands=[] length=4
+C=185732 I=0190644 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185736 I=0190648 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185744 I=0190656 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185752 I=0190664 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=185756 I=0190668 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185760 I=0190672 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185764 I=0190676 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=185768 I=0190680 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=185772 I=0190684 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4670
+C=185776 I=0190688 bytes=0c0000004c170400 op=12:CONST_ALT operands=[268108] length=8 g_iWSADGoodFrames (candidate: constant equals global D address; possible address materialization)
+C=185784 I=0190696 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=185792 I=0190704 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=185800 I=0190712 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185804 I=0190716 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185808 I=0190720 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=185812 I=0190724 bytes=4e000000 op=78:ADD operands=[] length=4
+C=185816 I=0190728 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185820 I=0190732 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185828 I=0190740 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185836 I=0190748 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=185840 I=0190752 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185844 I=0190756 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185848 I=0190760 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=185852 I=0190764 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=185856 I=0190768 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4671
+C=185860 I=0190772 bytes=0c000000e0190400 op=12:CONST_ALT operands=[268768] length=8 g_iWSADOverlaps (candidate: constant equals global D address; possible address materialization)
+C=185868 I=0190780 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=185876 I=0190788 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=185884 I=0190796 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185888 I=0190800 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185892 I=0190804 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=185896 I=0190808 bytes=4e000000 op=78:ADD operands=[] length=4
+C=185900 I=0190812 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185904 I=0190816 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185912 I=0190824 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=185920 I=0190832 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=185924 I=0190836 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185928 I=0190840 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185932 I=0190844 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=185936 I=0190848 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=185940 I=0190852 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4672
+C=185944 I=0190856 bytes=0c000000741c0400 op=12:CONST_ALT operands=[269428] length=8 g_iWSADDesync (candidate: constant equals global D address; possible address materialization)
+C=185952 I=0190864 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=185960 I=0190872 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=185968 I=0190880 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=185972 I=0190884 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=185976 I=0190888 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=185980 I=0190892 bytes=4e000000 op=78:ADD operands=[] length=4
+C=185984 I=0190896 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=185988 I=0190900 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=185996 I=0190908 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=186004 I=0190916 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=186008 I=0190920 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186012 I=0190924 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=186016 I=0190928 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=186020 I=0190932 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=186024 I=0190936 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4673
+C=186028 I=0190940 bytes=0c000000081f0400 op=12:CONST_ALT operands=[270088] length=8 g_flWSADAngle (candidate: constant equals global D address; possible address materialization)
+C=186036 I=0190948 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=186044 I=0190956 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=186052 I=0190964 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186056 I=0190968 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=186060 I=0190972 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=186064 I=0190976 bytes=4e000000 op=78:ADD operands=[] length=4
+C=186068 I=0190980 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=186072 I=0190984 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=186080 I=0190992 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=186088 I=0191000 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=186092 I=0191004 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186096 I=0191008 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=186100 I=0191012 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=186104 I=0191016 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=186108 I=0191020 bytes=3300000074d00200 op=51:JUMP operands=[184436] length=8 target C=184436 inside-region
+C=186116 I=0191028 bytes=2c00000004000000 op=44:STACK operands=[4] length=8
+C=186124 I=0191036 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4678
+C=186128 I=0191040 bytes=2700000000000000 op=39:PUSH_C operands=[0] length=8 MaxClients (candidate: constant equals global D address; possible address materialization)
+C=186136 I=0191048 bytes=330000002cd70200 op=51:JUMP operands=[186156] length=8 target C=186156 inside-region
+C=186144 I=0191056 bytes=89000000 op=137:BREAK operands=[] length=4
+C=186148 I=0191060 bytes=6e000000dcffffff op=110:INC_S operands=[-36] length=8 i (confirmed: direct slot read/write)
+C=186156 I=0191068 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=186164 I=0191076 bytes=0c00000004000000 op=12:CONST_ALT operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=186172 I=0191084 bytes=40000000d0d70200 op=64:JSGEQ operands=[186320] length=8 target C=186320 inside-region
+C=186180 I=0191092 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4680
+C=186184 I=0191096 bytes=0e000000e0ffffff op=14:ADDR_ALT operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=186192 I=0191104 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=186200 I=0191112 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=186208 I=0191120 bytes=19000000 op=25:LIDX operands=[] length=4
+C=186212 I=0191124 bytes=35000000c8d70200 op=53:JZER operands=[186312] length=8 target C=186312 inside-region
+C=186220 I=0191132 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4681
+C=186224 I=0191136 bytes=0c000000900f0400 op=12:CONST_ALT operands=[266128] length=8 g_iWSADFrames (candidate: constant equals global D address; possible address materialization)
+C=186232 I=0191144 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=186240 I=0191152 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=186248 I=0191160 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186252 I=0191164 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=186256 I=0191168 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=186260 I=0191172 bytes=4e000000 op=78:ADD operands=[] length=4
+C=186264 I=0191176 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=186268 I=0191180 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 i (confirmed: direct slot read)
+C=186276 I=0191188 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=186284 I=0191196 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=186288 I=0191200 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186292 I=0191204 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=186296 I=0191208 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=186300 I=0191212 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=186304 I=0191216 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=186308 I=0191220 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=186312 I=0191224 bytes=3300000020d70200 op=51:JUMP operands=[186144] length=8 target C=186144 inside-region
+C=186320 I=0191232 bytes=2c00000004000000 op=44:STACK operands=[4] length=8
+C=186328 I=0191240 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4685
+C=186332 I=0191244 bytes=27000000ffffffff op=39:PUSH_C operands=[-1] length=8
+C=186340 I=0191252 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4686
+C=186344 I=0191256 bytes=27000000f4010000 op=39:PUSH_C operands=[500] length=8
+C=186352 I=0191264 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4687
+C=186356 I=0191268 bytes=2700000000000000 op=39:PUSH_C operands=[0] length=8 MaxClients (candidate: constant equals global D address; possible address materialization)
+C=186364 I=0191276 bytes=3300000010d80200 op=51:JUMP operands=[186384] length=8 target C=186384 inside-region
+C=186372 I=0191284 bytes=89000000 op=137:BREAK operands=[] length=4
+C=186376 I=0191288 bytes=6e000000d4ffffff op=110:INC_S operands=[-44] length=8 i (confirmed: direct slot read/write)
+C=186384 I=0191296 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 i (confirmed: direct slot read)
+C=186392 I=0191304 bytes=0c00000004000000 op=12:CONST_ALT operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=186400 I=0191312 bytes=400000003cd90200 op=64:JSGEQ operands=[186684] length=8 target C=186684 inside-region
+C=186408 I=0191320 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4689
+C=186412 I=0191324 bytes=0e000000e0ffffff op=14:ADDR_ALT operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=186420 I=0191332 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 i (confirmed: direct slot read)
+C=186428 I=0191340 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=186436 I=0191348 bytes=19000000 op=25:LIDX operands=[] length=4
+C=186440 I=0191352 bytes=35000000c0d80200 op=53:JZER operands=[186560] length=8 target C=186560 inside-region
+C=186448 I=0191360 bytes=0c000000fc0c0400 op=12:CONST_ALT operands=[265468] length=8 g_iWSADStart (candidate: constant equals global D address; possible address materialization)
+C=186456 I=0191368 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=186464 I=0191376 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=186472 I=0191384 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186476 I=0191388 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=186480 I=0191392 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=186484 I=0191396 bytes=4e000000 op=78:ADD operands=[] length=4
+C=186488 I=0191400 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=186492 I=0191404 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 i (confirmed: direct slot read)
+C=186500 I=0191412 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=186508 I=0191420 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=186512 I=0191424 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186516 I=0191428 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=186520 I=0191432 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=186524 I=0191436 bytes=03000000d8ffffff op=3:LOAD_S_PRI operands=[-40] length=8 iEarliestFrame (confirmed: direct slot read)
+C=186532 I=0191444 bytes=23000000 op=35:XCHG operands=[] length=4
+C=186536 I=0191448 bytes=40000000c0d80200 op=64:JSGEQ operands=[186560] length=8 target C=186560 inside-region
+C=186544 I=0191456 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=186552 I=0191464 bytes=33000000c4d80200 op=51:JUMP operands=[186564] length=8 target C=186564 inside-region
+C=186560 I=0191472 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=186564 I=0191476 bytes=3500000034d90200 op=53:JZER operands=[186676] length=8 target C=186676 inside-region
+C=186572 I=0191484 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4691
+C=186576 I=0191488 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 i (confirmed: direct slot read)
+C=186584 I=0191496 bytes=11000000dcffffff op=17:STOR_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot write)
+C=186592 I=0191504 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4692
+C=186596 I=0191508 bytes=0c000000fc0c0400 op=12:CONST_ALT operands=[265468] length=8 g_iWSADStart (candidate: constant equals global D address; possible address materialization)
+C=186604 I=0191516 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=186612 I=0191524 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=186620 I=0191532 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186624 I=0191536 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=186628 I=0191540 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=186632 I=0191544 bytes=4e000000 op=78:ADD operands=[] length=4
+C=186636 I=0191548 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=186640 I=0191552 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 i (confirmed: direct slot read)
+C=186648 I=0191560 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=186656 I=0191568 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=186660 I=0191572 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186664 I=0191576 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=186668 I=0191580 bytes=11000000d8ffffff op=17:STOR_S_PRI operands=[-40] length=8 iEarliestFrame (confirmed: direct slot write)
+C=186676 I=0191588 bytes=3300000004d80200 op=51:JUMP operands=[186372] length=8 target C=186372 inside-region
+C=186684 I=0191596 bytes=2c00000004000000 op=44:STACK operands=[4] length=8
+C=186692 I=0191604 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4695
+C=186696 I=0191608 bytes=030000001c000000 op=3:LOAD_S_PRI operands=[28] length=8 bBadLastFrame (confirmed: direct slot read)
+C=186704 I=0191616 bytes=54000000 op=84:NOT operands=[] length=4
+C=186708 I=0191620 bytes=3500000020db0200 op=53:JZER operands=[187168] length=8 target C=187168 inside-region
+C=186716 I=0191628 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4697
+C=186720 I=0191632 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=186728 I=0191640 bytes=0c000000ffffffff op=12:CONST_ALT operands=[-1] length=8
+C=186736 I=0191648 bytes=3e00000020db0200 op=62:JSLEQ operands=[187168] length=8 target C=187168 inside-region
+C=186744 I=0191656 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4700
+C=186748 I=0191660 bytes=0300000014000000 op=3:LOAD_S_PRI operands=[20] length=8 flGain (confirmed: direct slot read)
+C=186756 I=0191668 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=186760 I=0191672 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=186764 I=0191676 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=186768 I=0191680 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=186772 I=0191684 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=186776 I=0191688 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=186784 I=0191696 bytes=31000000f4020000 op=49:CALL operands=[756] length=8 target C=756 outside-region/global-boundary operator>(Float:,_:)
+C=186792 I=0191704 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=186796 I=0191708 bytes=350000009cda0200 op=53:JZER operands=[187036] length=8 target C=187036 inside-region
+C=186804 I=0191716 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4702
+C=186808 I=0191720 bytes=0c00000024120400 op=12:CONST_ALT operands=[266788] length=8 g_flWSADGain (candidate: constant equals global D address; possible address materialization)
+C=186816 I=0191728 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=186824 I=0191736 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=186832 I=0191744 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186836 I=0191748 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=186840 I=0191752 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=186844 I=0191756 bytes=4e000000 op=78:ADD operands=[] length=4
+C=186848 I=0191760 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=186852 I=0191764 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=186860 I=0191772 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=186868 I=0191780 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=186872 I=0191784 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186876 I=0191788 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=186880 I=0191792 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=186884 I=0191796 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=186888 I=0191800 bytes=0300000014000000 op=3:LOAD_S_PRI operands=[20] length=8 flGain (confirmed: direct slot read)
+C=186896 I=0191808 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=186900 I=0191812 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=186904 I=0191816 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=186912 I=0191824 bytes=7b00000012000000 op=123:SYSREQ_C operands=[18] length=8 native=floatadd
+C=186920 I=0191832 bytes=2c0000000c000000 op=44:STACK operands=[12] length=8
+C=186928 I=0191840 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=186932 I=0191844 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=186936 I=0191848 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4703
+C=186940 I=0191852 bytes=0c0000004c170400 op=12:CONST_ALT operands=[268108] length=8 g_iWSADGoodFrames (candidate: constant equals global D address; possible address materialization)
+C=186948 I=0191860 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=186956 I=0191868 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=186964 I=0191876 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=186968 I=0191880 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=186972 I=0191884 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=186976 I=0191888 bytes=4e000000 op=78:ADD operands=[] length=4
+C=186980 I=0191892 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=186984 I=0191896 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=186992 I=0191904 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=187000 I=0191912 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=187004 I=0191916 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=187008 I=0191920 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187012 I=0191924 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187016 I=0191928 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=187020 I=0191932 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=187024 I=0191936 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=187028 I=0191940 bytes=3300000020db0200 op=51:JUMP operands=[187168] length=8 target C=187168 inside-region
+C=187036 I=0191948 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4707
+C=187040 I=0191952 bytes=0c000000b8140400 op=12:CONST_ALT operands=[267448] length=8 g_flWSADLoss (candidate: constant equals global D address; possible address materialization)
+C=187048 I=0191960 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=187056 I=0191968 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=187064 I=0191976 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=187068 I=0191980 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187072 I=0191984 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187076 I=0191988 bytes=4e000000 op=78:ADD operands=[] length=4
+C=187080 I=0191992 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187084 I=0191996 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=187092 I=0192004 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=187100 I=0192012 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=187104 I=0192016 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=187108 I=0192020 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187112 I=0192024 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187116 I=0192028 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187120 I=0192032 bytes=0300000014000000 op=3:LOAD_S_PRI operands=[20] length=8 flGain (confirmed: direct slot read)
+C=187128 I=0192040 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187132 I=0192044 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=187136 I=0192048 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=187144 I=0192056 bytes=7b00000015000000 op=123:SYSREQ_C operands=[21] length=8 native=floatsub
+C=187152 I=0192064 bytes=2c0000000c000000 op=44:STACK operands=[12] length=8
+C=187160 I=0192072 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=187164 I=0192076 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=187168 I=0192080 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4713
+C=187172 I=0192084 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=187180 I=0192092 bytes=0c000000ffffffff op=12:CONST_ALT operands=[-1] length=8
+C=187188 I=0192100 bytes=3e000000cce20200 op=62:JSLEQ operands=[189132] length=8 target C=189132 inside-region
+C=187196 I=0192108 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4715
+C=187200 I=0192112 bytes=2c000000fcffffff op=44:STACK operands=[-4] length=8
+C=187208 I=0192120 bytes=290000000c000000 op=41:PUSH_S operands=[12] length=8 id (confirmed: direct slot read)
+C=187216 I=0192128 bytes=2700000004000000 op=39:PUSH_C operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=187224 I=0192136 bytes=31000000403a0300 op=49:CALL operands=[211520] length=8 target C=211520 outside-region/global-boundary calcVelocityCos
+C=187232 I=0192144 bytes=11000000d4ffffff op=17:STOR_S_PRI operands=[-44] length=8 flCos (confirmed: direct slot write)
+C=187240 I=0192152 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4716
+C=187244 I=0192156 bytes=2c000000fcffffff op=44:STACK operands=[-4] length=8
+C=187252 I=0192164 bytes=290000000c000000 op=41:PUSH_S operands=[12] length=8 id (confirmed: direct slot read)
+C=187260 I=0192172 bytes=2700000004000000 op=39:PUSH_C operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=187268 I=0192180 bytes=310000003c3c0300 op=49:CALL operands=[212028] length=8 target C=212028 outside-region/global-boundary isVelocityOnRight
+C=187276 I=0192188 bytes=11000000d0ffffff op=17:STOR_S_PRI operands=[-48] length=8 iVelRight (confirmed: direct slot write)
+C=187284 I=0192196 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4717
+C=187288 I=0192200 bytes=2c000000fcffffff op=44:STACK operands=[-4] length=8
+C=187296 I=0192208 bytes=0c0000007c130500 op=12:CONST_ALT operands=[332668] length=8 g_flPrevAngles (candidate: constant equals global D address; possible address materialization)
+C=187304 I=0192216 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=187312 I=0192224 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=187320 I=0192232 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=187324 I=0192236 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187328 I=0192240 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187332 I=0192244 bytes=4e000000 op=78:ADD operands=[] length=4
+C=187336 I=0192248 bytes=5700000004000000 op=87:ADD_C operands=[4] length=8
+C=187344 I=0192256 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187348 I=0192260 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187352 I=0192264 bytes=0c0000006c110500 op=12:CONST_ALT operands=[332140] length=8 g_flAngles (candidate: constant equals global D address; possible address materialization)
+C=187360 I=0192272 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=187368 I=0192280 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=187376 I=0192288 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=187380 I=0192292 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187384 I=0192296 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187388 I=0192300 bytes=4e000000 op=78:ADD operands=[] length=4
+C=187392 I=0192304 bytes=5700000004000000 op=87:ADD_C operands=[4] length=8
+C=187400 I=0192312 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187404 I=0192316 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187408 I=0192320 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=187416 I=0192328 bytes=31000000083e0300 op=49:CALL operands=[212488] length=8 target C=212488 outside-region/global-boundary isTurningRight
+C=187424 I=0192336 bytes=11000000ccffffff op=17:STOR_S_PRI operands=[-52] length=8 iTurnRight (confirmed: direct slot write)
+C=187432 I=0192344 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4718
+C=187436 I=0192348 bytes=2c000000fcffffff op=44:STACK operands=[-4] length=8
+C=187444 I=0192356 bytes=0c0000007c130500 op=12:CONST_ALT operands=[332668] length=8 g_flPrevAngles (candidate: constant equals global D address; possible address materialization)
+C=187452 I=0192364 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=187460 I=0192372 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=187468 I=0192380 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=187472 I=0192384 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187476 I=0192388 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187480 I=0192392 bytes=4e000000 op=78:ADD operands=[] length=4
+C=187484 I=0192396 bytes=5700000004000000 op=87:ADD_C operands=[4] length=8
+C=187492 I=0192404 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187496 I=0192408 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187500 I=0192412 bytes=0c0000006c110500 op=12:CONST_ALT operands=[332140] length=8 g_flAngles (candidate: constant equals global D address; possible address materialization)
+C=187508 I=0192420 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=187516 I=0192428 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=187524 I=0192436 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=187528 I=0192440 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187532 I=0192444 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187536 I=0192448 bytes=4e000000 op=78:ADD operands=[] length=4
+C=187540 I=0192452 bytes=5700000004000000 op=87:ADD_C operands=[4] length=8
+C=187548 I=0192460 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187552 I=0192464 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187556 I=0192468 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=187564 I=0192476 bytes=31000000f43f0300 op=49:CALL operands=[212980] length=8 target C=212980 outside-region/global-boundary getRightAngle
+C=187572 I=0192484 bytes=11000000c8ffffff op=17:STOR_S_PRI operands=[-56] length=8 flRightAngle (confirmed: direct slot write)
+C=187580 I=0192492 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4720
+C=187584 I=0192496 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=187592 I=0192504 bytes=3600000000de0200 op=54:JNZ operands=[187904] length=8 target C=187904 inside-region
+C=187600 I=0192512 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4722
+C=187604 I=0192516 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 iVelRight (confirmed: direct slot read)
+C=187612 I=0192524 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187616 I=0192528 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=187620 I=0192532 bytes=4000000064dd0200 op=64:JSGEQ operands=[187748] length=8 target C=187748 inside-region
+C=187628 I=0192540 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4723
+C=187632 I=0192544 bytes=03000000ccffffff op=3:LOAD_S_PRI operands=[-52] length=8 iTurnRight (confirmed: direct slot read)
+C=187640 I=0192552 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187644 I=0192556 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=187648 I=0192560 bytes=3f00000064dd0200 op=63:JSGRTR operands=[187748] length=8 target C=187748 inside-region
+C=187656 I=0192568 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4724
+C=187660 I=0192572 bytes=0c000000741c0400 op=12:CONST_ALT operands=[269428] length=8 g_iWSADDesync (candidate: constant equals global D address; possible address materialization)
+C=187668 I=0192580 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=187676 I=0192588 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=187684 I=0192596 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=187688 I=0192600 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187692 I=0192604 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187696 I=0192608 bytes=4e000000 op=78:ADD operands=[] length=4
+C=187700 I=0192612 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187704 I=0192616 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=187712 I=0192624 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=187720 I=0192632 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=187724 I=0192636 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=187728 I=0192640 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187732 I=0192644 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187736 I=0192648 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=187740 I=0192652 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=187744 I=0192656 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=187748 I=0192660 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4726
+C=187752 I=0192664 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 iVelRight (confirmed: direct slot read)
+C=187760 I=0192672 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187764 I=0192676 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=187768 I=0192680 bytes=3e000000f8dd0200 op=62:JSLEQ operands=[187896] length=8 target C=187896 inside-region
+C=187776 I=0192688 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4727
+C=187780 I=0192692 bytes=03000000ccffffff op=3:LOAD_S_PRI operands=[-52] length=8 iTurnRight (confirmed: direct slot read)
+C=187788 I=0192700 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187792 I=0192704 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=187796 I=0192708 bytes=3d000000f8dd0200 op=61:JSLESS operands=[187896] length=8 target C=187896 inside-region
+C=187804 I=0192716 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4728
+C=187808 I=0192720 bytes=0c000000741c0400 op=12:CONST_ALT operands=[269428] length=8 g_iWSADDesync (candidate: constant equals global D address; possible address materialization)
+C=187816 I=0192728 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=187824 I=0192736 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=187832 I=0192744 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=187836 I=0192748 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187840 I=0192752 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187844 I=0192756 bytes=4e000000 op=78:ADD operands=[] length=4
+C=187848 I=0192760 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187852 I=0192764 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=187860 I=0192772 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=187868 I=0192780 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=187872 I=0192784 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=187876 I=0192788 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=187880 I=0192792 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=187884 I=0192796 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=187888 I=0192800 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=187892 I=0192804 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=187896 I=0192808 bytes=3300000040e20200 op=51:JUMP operands=[188992] length=8 target C=188992 inside-region
+C=187904 I=0192816 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4730
+C=187908 I=0192820 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=187916 I=0192828 bytes=6900000001000000 op=105:EQ_C_PRI operands=[1] length=8
+C=187924 I=0192836 bytes=350000004cdf0200 op=53:JZER operands=[188236] length=8 target C=188236 inside-region
+C=187932 I=0192844 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4732
+C=187936 I=0192848 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 iVelRight (confirmed: direct slot read)
+C=187944 I=0192856 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187948 I=0192860 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=187952 I=0192864 bytes=40000000b0de0200 op=64:JSGEQ operands=[188080] length=8 target C=188080 inside-region
+C=187960 I=0192872 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4733
+C=187964 I=0192876 bytes=03000000ccffffff op=3:LOAD_S_PRI operands=[-52] length=8 iTurnRight (confirmed: direct slot read)
+C=187972 I=0192884 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=187976 I=0192888 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=187980 I=0192892 bytes=3d000000b0de0200 op=61:JSLESS operands=[188080] length=8 target C=188080 inside-region
+C=187988 I=0192900 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4734
+C=187992 I=0192904 bytes=0c000000741c0400 op=12:CONST_ALT operands=[269428] length=8 g_iWSADDesync (candidate: constant equals global D address; possible address materialization)
+C=188000 I=0192912 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=188008 I=0192920 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=188016 I=0192928 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188020 I=0192932 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188024 I=0192936 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188028 I=0192940 bytes=4e000000 op=78:ADD operands=[] length=4
+C=188032 I=0192944 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188036 I=0192948 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=188044 I=0192956 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=188052 I=0192964 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=188056 I=0192968 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188060 I=0192972 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188064 I=0192976 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188068 I=0192980 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=188072 I=0192984 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=188076 I=0192988 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=188080 I=0192992 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4736
+C=188084 I=0192996 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 iVelRight (confirmed: direct slot read)
+C=188092 I=0193004 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188096 I=0193008 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=188100 I=0193012 bytes=3e00000044df0200 op=62:JSLEQ operands=[188228] length=8 target C=188228 inside-region
+C=188108 I=0193020 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4737
+C=188112 I=0193024 bytes=03000000ccffffff op=3:LOAD_S_PRI operands=[-52] length=8 iTurnRight (confirmed: direct slot read)
+C=188120 I=0193032 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188124 I=0193036 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=188128 I=0193040 bytes=3f00000044df0200 op=63:JSGRTR operands=[188228] length=8 target C=188228 inside-region
+C=188136 I=0193048 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4738
+C=188140 I=0193052 bytes=0c000000741c0400 op=12:CONST_ALT operands=[269428] length=8 g_iWSADDesync (candidate: constant equals global D address; possible address materialization)
+C=188148 I=0193060 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=188156 I=0193068 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=188164 I=0193076 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188168 I=0193080 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188172 I=0193084 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188176 I=0193088 bytes=4e000000 op=78:ADD operands=[] length=4
+C=188180 I=0193092 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188184 I=0193096 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=188192 I=0193104 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=188200 I=0193112 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=188204 I=0193116 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188208 I=0193120 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188212 I=0193124 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188216 I=0193128 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=188220 I=0193132 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=188224 I=0193136 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=188228 I=0193140 bytes=3300000040e20200 op=51:JUMP operands=[188992] length=8 target C=188992 inside-region
+C=188236 I=0193148 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4740
+C=188240 I=0193152 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=188248 I=0193160 bytes=6900000002000000 op=105:EQ_C_PRI operands=[2] length=8
+C=188256 I=0193168 bytes=35000000d8e00200 op=53:JZER operands=[188632] length=8 target C=188632 inside-region
+C=188264 I=0193176 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4742
+C=188268 I=0193180 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 flCos (confirmed: direct slot read)
+C=188276 I=0193188 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188280 I=0193192 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=188284 I=0193196 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188288 I=0193200 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188292 I=0193204 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=188296 I=0193208 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=188304 I=0193216 bytes=31000000f4020000 op=49:CALL operands=[756] length=8 target C=756 outside-region/global-boundary operator>(Float:,_:)
+C=188312 I=0193224 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=188316 I=0193228 bytes=350000001ce00200 op=53:JZER operands=[188444] length=8 target C=188444 inside-region
+C=188324 I=0193236 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4743
+C=188328 I=0193240 bytes=03000000ccffffff op=3:LOAD_S_PRI operands=[-52] length=8 iTurnRight (confirmed: direct slot read)
+C=188336 I=0193248 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188340 I=0193252 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=188344 I=0193256 bytes=3f0000001ce00200 op=63:JSGRTR operands=[188444] length=8 target C=188444 inside-region
+C=188352 I=0193264 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4744
+C=188356 I=0193268 bytes=0c000000741c0400 op=12:CONST_ALT operands=[269428] length=8 g_iWSADDesync (candidate: constant equals global D address; possible address materialization)
+C=188364 I=0193276 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=188372 I=0193284 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=188380 I=0193292 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188384 I=0193296 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188388 I=0193300 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188392 I=0193304 bytes=4e000000 op=78:ADD operands=[] length=4
+C=188396 I=0193308 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188400 I=0193312 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=188408 I=0193320 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=188416 I=0193328 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=188420 I=0193332 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188424 I=0193336 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188428 I=0193340 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188432 I=0193344 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=188436 I=0193348 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=188440 I=0193352 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=188444 I=0193356 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4746
+C=188448 I=0193360 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 flCos (confirmed: direct slot read)
+C=188456 I=0193368 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188460 I=0193372 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=188464 I=0193376 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188468 I=0193380 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188472 I=0193384 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=188476 I=0193388 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=188484 I=0193396 bytes=31000000b0040000 op=49:CALL operands=[1200] length=8 target C=1200 outside-region/global-boundary operator<(Float:,_:)
+C=188492 I=0193404 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=188496 I=0193408 bytes=35000000d0e00200 op=53:JZER operands=[188624] length=8 target C=188624 inside-region
+C=188504 I=0193416 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4747
+C=188508 I=0193420 bytes=03000000ccffffff op=3:LOAD_S_PRI operands=[-52] length=8 iTurnRight (confirmed: direct slot read)
+C=188516 I=0193428 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188520 I=0193432 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=188524 I=0193436 bytes=3d000000d0e00200 op=61:JSLESS operands=[188624] length=8 target C=188624 inside-region
+C=188532 I=0193444 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4748
+C=188536 I=0193448 bytes=0c000000741c0400 op=12:CONST_ALT operands=[269428] length=8 g_iWSADDesync (candidate: constant equals global D address; possible address materialization)
+C=188544 I=0193456 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=188552 I=0193464 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=188560 I=0193472 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188564 I=0193476 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188568 I=0193480 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188572 I=0193484 bytes=4e000000 op=78:ADD operands=[] length=4
+C=188576 I=0193488 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188580 I=0193492 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=188588 I=0193500 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=188596 I=0193508 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=188600 I=0193512 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188604 I=0193516 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188608 I=0193520 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188612 I=0193524 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=188616 I=0193528 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=188620 I=0193532 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=188624 I=0193536 bytes=3300000040e20200 op=51:JUMP operands=[188992] length=8 target C=188992 inside-region
+C=188632 I=0193544 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4752
+C=188636 I=0193548 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 flCos (confirmed: direct slot read)
+C=188644 I=0193556 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188648 I=0193560 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=188652 I=0193564 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188656 I=0193568 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188660 I=0193572 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=188664 I=0193576 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=188672 I=0193584 bytes=31000000f4020000 op=49:CALL operands=[756] length=8 target C=756 outside-region/global-boundary operator>(Float:,_:)
+C=188680 I=0193592 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=188684 I=0193596 bytes=350000008ce10200 op=53:JZER operands=[188812] length=8 target C=188812 inside-region
+C=188692 I=0193604 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4753
+C=188696 I=0193608 bytes=03000000ccffffff op=3:LOAD_S_PRI operands=[-52] length=8 iTurnRight (confirmed: direct slot read)
+C=188704 I=0193616 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188708 I=0193620 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=188712 I=0193624 bytes=3d0000008ce10200 op=61:JSLESS operands=[188812] length=8 target C=188812 inside-region
+C=188720 I=0193632 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4754
+C=188724 I=0193636 bytes=0c000000741c0400 op=12:CONST_ALT operands=[269428] length=8 g_iWSADDesync (candidate: constant equals global D address; possible address materialization)
+C=188732 I=0193644 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=188740 I=0193652 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=188748 I=0193660 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188752 I=0193664 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188756 I=0193668 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188760 I=0193672 bytes=4e000000 op=78:ADD operands=[] length=4
+C=188764 I=0193676 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188768 I=0193680 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=188776 I=0193688 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=188784 I=0193696 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=188788 I=0193700 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188792 I=0193704 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188796 I=0193708 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188800 I=0193712 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=188804 I=0193716 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=188808 I=0193720 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=188812 I=0193724 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4756
+C=188816 I=0193728 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 flCos (confirmed: direct slot read)
+C=188824 I=0193736 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188828 I=0193740 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=188832 I=0193744 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188836 I=0193748 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188840 I=0193752 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=188844 I=0193756 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=188852 I=0193764 bytes=31000000b0040000 op=49:CALL operands=[1200] length=8 target C=1200 outside-region/global-boundary operator<(Float:,_:)
+C=188860 I=0193772 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=188864 I=0193776 bytes=3500000040e20200 op=53:JZER operands=[188992] length=8 target C=188992 inside-region
+C=188872 I=0193784 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4757
+C=188876 I=0193788 bytes=03000000ccffffff op=3:LOAD_S_PRI operands=[-52] length=8 iTurnRight (confirmed: direct slot read)
+C=188884 I=0193796 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188888 I=0193800 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=188892 I=0193804 bytes=3f00000040e20200 op=63:JSGRTR operands=[188992] length=8 target C=188992 inside-region
+C=188900 I=0193812 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4758
+C=188904 I=0193816 bytes=0c000000741c0400 op=12:CONST_ALT operands=[269428] length=8 g_iWSADDesync (candidate: constant equals global D address; possible address materialization)
+C=188912 I=0193824 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=188920 I=0193832 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=188928 I=0193840 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188932 I=0193844 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=188936 I=0193848 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188940 I=0193852 bytes=4e000000 op=78:ADD operands=[] length=4
+C=188944 I=0193856 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188948 I=0193860 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=188956 I=0193868 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=188964 I=0193876 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=188968 I=0193880 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=188972 I=0193884 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=188976 I=0193888 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=188980 I=0193892 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=188984 I=0193896 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=188988 I=0193900 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=188992 I=0193904 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4761
+C=188996 I=0193908 bytes=0c000000081f0400 op=12:CONST_ALT operands=[270088] length=8 g_flWSADAngle (candidate: constant equals global D address; possible address materialization)
+C=189004 I=0193916 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=189012 I=0193924 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=189020 I=0193932 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=189024 I=0193936 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=189028 I=0193940 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=189032 I=0193944 bytes=4e000000 op=78:ADD operands=[] length=4
+C=189036 I=0193948 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=189040 I=0193952 bytes=03000000dcffffff op=3:LOAD_S_PRI operands=[-36] length=8 iGainNum (confirmed: direct slot read)
+C=189048 I=0193960 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=189056 I=0193968 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=189060 I=0193972 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=189064 I=0193976 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=189068 I=0193980 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=189072 I=0193984 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=189076 I=0193988 bytes=03000000c8ffffff op=3:LOAD_S_PRI operands=[-56] length=8 flRightAngle (confirmed: direct slot read)
+C=189084 I=0193996 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=189088 I=0194000 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=189092 I=0194004 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=189100 I=0194012 bytes=7b00000012000000 op=123:SYSREQ_C operands=[18] length=8 native=floatadd
+C=189108 I=0194020 bytes=2c0000000c000000 op=44:STACK operands=[12] length=8
+C=189116 I=0194028 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=189120 I=0194032 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=189124 I=0194036 bytes=2c00000010000000 op=44:STACK operands=[16] length=8
+C=189132 I=0194044 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4765
+C=189136 I=0194048 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=189144 I=0194056 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=189148 I=0194060 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=189152 I=0194064 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=189160 I=0194072 bytes=5700000004000000 op=87:ADD_C operands=[4] length=8
+C=189168 I=0194080 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=189172 I=0194084 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=189176 I=0194088 bytes=4e000000 op=78:ADD operands=[] length=4
+C=189180 I=0194092 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=189184 I=0194096 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=189192 I=0194104 bytes=5700000008000000 op=87:ADD_C operands=[8] length=8
+C=189200 I=0194112 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=189204 I=0194116 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=189208 I=0194120 bytes=4e000000 op=78:ADD operands=[] length=4
+C=189212 I=0194124 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=189216 I=0194128 bytes=0d000000e0ffffff op=13:ADDR_PRI operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=189224 I=0194136 bytes=570000000c000000 op=87:ADD_C operands=[12] length=8
+C=189232 I=0194144 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=189236 I=0194148 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=189240 I=0194152 bytes=4e000000 op=78:ADD operands=[] length=4
+C=189244 I=0194156 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=189248 I=0194160 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=189256 I=0194168 bytes=4000000024e40200 op=64:JSGEQ operands=[189476] length=8 target C=189476 inside-region
+C=189264 I=0194176 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4768
+C=189268 I=0194180 bytes=2700000000000000 op=39:PUSH_C operands=[0] length=8 MaxClients (candidate: constant equals global D address; possible address materialization)
+C=189276 I=0194188 bytes=3300000070e30200 op=51:JUMP operands=[189296] length=8 target C=189296 inside-region
+C=189284 I=0194196 bytes=89000000 op=137:BREAK operands=[] length=4
+C=189288 I=0194200 bytes=6e000000d4ffffff op=110:INC_S operands=[-44] length=8 i (confirmed: direct slot read/write)
+C=189296 I=0194208 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 i (confirmed: direct slot read)
+C=189304 I=0194216 bytes=0c00000004000000 op=12:CONST_ALT operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=189312 I=0194224 bytes=4000000014e40200 op=64:JSGEQ operands=[189460] length=8 target C=189460 inside-region
+C=189320 I=0194232 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4770
+C=189324 I=0194236 bytes=0e000000e0ffffff op=14:ADDR_ALT operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=189332 I=0194244 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 i (confirmed: direct slot read)
+C=189340 I=0194252 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=189348 I=0194260 bytes=19000000 op=25:LIDX operands=[] length=4
+C=189352 I=0194264 bytes=350000000ce40200 op=53:JZER operands=[189452] length=8 target C=189452 inside-region
+C=189360 I=0194272 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4771
+C=189364 I=0194276 bytes=0c000000e0190400 op=12:CONST_ALT operands=[268768] length=8 g_iWSADOverlaps (candidate: constant equals global D address; possible address materialization)
+C=189372 I=0194284 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=189380 I=0194292 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=189388 I=0194300 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=189392 I=0194304 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=189396 I=0194308 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=189400 I=0194312 bytes=4e000000 op=78:ADD operands=[] length=4
+C=189404 I=0194316 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=189408 I=0194320 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 i (confirmed: direct slot read)
+C=189416 I=0194328 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=189424 I=0194336 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=189428 I=0194340 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=189432 I=0194344 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=189436 I=0194348 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=189440 I=0194352 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=189444 I=0194356 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=189448 I=0194360 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=189452 I=0194364 bytes=3300000064e30200 op=51:JUMP operands=[189284] length=8 target C=189284 inside-region
+C=189460 I=0194372 bytes=2c00000004000000 op=44:STACK operands=[4] length=8
+C=189468 I=0194380 bytes=33000000c0e40200 op=51:JUMP operands=[189632] length=8 target C=189632 inside-region
+C=189476 I=0194388 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4777
+C=189480 I=0194392 bytes=2700000000000000 op=39:PUSH_C operands=[0] length=8 MaxClients (candidate: constant equals global D address; possible address materialization)
+C=189488 I=0194400 bytes=3300000044e40200 op=51:JUMP operands=[189508] length=8 target C=189508 inside-region
+C=189496 I=0194408 bytes=89000000 op=137:BREAK operands=[] length=4
+C=189500 I=0194412 bytes=6e000000d4ffffff op=110:INC_S operands=[-44] length=8 i (confirmed: direct slot read/write)
+C=189508 I=0194420 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 i (confirmed: direct slot read)
+C=189516 I=0194428 bytes=0c00000004000000 op=12:CONST_ALT operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=189524 I=0194436 bytes=40000000b8e40200 op=64:JSGEQ operands=[189624] length=8 target C=189624 inside-region
+C=189532 I=0194444 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4778
+C=189536 I=0194448 bytes=0c000000e0190400 op=12:CONST_ALT operands=[268768] length=8 g_iWSADOverlaps (candidate: constant equals global D address; possible address materialization)
+C=189544 I=0194456 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=189552 I=0194464 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=189560 I=0194472 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=189564 I=0194476 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=189568 I=0194480 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=189572 I=0194484 bytes=4e000000 op=78:ADD operands=[] length=4
+C=189576 I=0194488 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=189580 I=0194492 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 i (confirmed: direct slot read)
+C=189588 I=0194500 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=189596 I=0194508 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=189600 I=0194512 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=189604 I=0194516 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=189608 I=0194520 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=189612 I=0194524 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=189616 I=0194528 bytes=3300000038e40200 op=51:JUMP operands=[189496] length=8 target C=189496 inside-region
+C=189624 I=0194536 bytes=2c00000004000000 op=44:STACK operands=[4] length=8
+C=189632 I=0194544 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4782
+C=189636 I=0194548 bytes=2700000000000000 op=39:PUSH_C operands=[0] length=8 MaxClients (candidate: constant equals global D address; possible address materialization)
+C=189644 I=0194556 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4784
+C=189648 I=0194560 bytes=2700000000000000 op=39:PUSH_C operands=[0] length=8 MaxClients (candidate: constant equals global D address; possible address materialization)
+C=189656 I=0194568 bytes=33000000ece40200 op=51:JUMP operands=[189676] length=8 target C=189676 inside-region
+C=189664 I=0194576 bytes=89000000 op=137:BREAK operands=[] length=4
+C=189668 I=0194580 bytes=6e000000d0ffffff op=110:INC_S operands=[-48] length=8 i (confirmed: direct slot read/write)
+C=189676 I=0194588 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=189684 I=0194596 bytes=0c00000004000000 op=12:CONST_ALT operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=189692 I=0194604 bytes=40000000a4ed0200 op=64:JSGEQ operands=[191908] length=8 target C=191908 inside-region
+C=189700 I=0194612 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4786
+C=189704 I=0194616 bytes=5c000000d4ffffff op=92:ZERO_S operands=[-44] length=8 bFinished (confirmed: direct slot write)
+C=189712 I=0194624 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4787
+C=189716 I=0194628 bytes=0300000018000000 op=3:LOAD_S_PRI operands=[24] length=8 bGround (confirmed: direct slot read)
+C=189724 I=0194636 bytes=54000000 op=84:NOT operands=[] length=4
+C=189728 I=0194640 bytes=3500000018e60200 op=53:JZER operands=[189976] length=8 target C=189976 inside-region
+C=189736 I=0194648 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4789
+C=189740 I=0194652 bytes=0e000000e0ffffff op=14:ADDR_ALT operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=189748 I=0194660 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=189756 I=0194668 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=189764 I=0194676 bytes=19000000 op=25:LIDX operands=[] length=4
+C=189768 I=0194680 bytes=3500000070e50200 op=53:JZER operands=[189808] length=8 target C=189808 inside-region
+C=189776 I=0194688 bytes=030000001c000000 op=3:LOAD_S_PRI operands=[28] length=8 bBadLastFrame (confirmed: direct slot read)
+C=189784 I=0194696 bytes=3500000070e50200 op=53:JZER operands=[189808] length=8 target C=189808 inside-region
+C=189792 I=0194704 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=189800 I=0194712 bytes=3300000074e50200 op=51:JUMP operands=[189812] length=8 target C=189812 inside-region
+C=189808 I=0194720 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=189812 I=0194724 bytes=3500000090e50200 op=53:JZER operands=[189840] length=8 target C=189840 inside-region
+C=189820 I=0194732 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4790
+C=189824 I=0194736 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=189832 I=0194744 bytes=11000000d4ffffff op=17:STOR_S_PRI operands=[-44] length=8 bFinished (confirmed: direct slot write)
+C=189840 I=0194752 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4791
+C=189844 I=0194756 bytes=0e000000e0ffffff op=14:ADDR_ALT operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=189852 I=0194764 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=189860 I=0194772 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=189868 I=0194780 bytes=19000000 op=25:LIDX operands=[] length=4
+C=189872 I=0194784 bytes=35000000f0e50200 op=53:JZER operands=[189936] length=8 target C=189936 inside-region
+C=189880 I=0194792 bytes=0e000000f0ffffff op=14:ADDR_ALT operands=[-16] length=8 new_WSAD (confirmed address: frame address formation)
+C=189888 I=0194800 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=189896 I=0194808 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=189904 I=0194816 bytes=19000000 op=25:LIDX operands=[] length=4
+C=189908 I=0194820 bytes=54000000 op=84:NOT operands=[] length=4
+C=189912 I=0194824 bytes=35000000f0e50200 op=53:JZER operands=[189936] length=8 target C=189936 inside-region
+C=189920 I=0194832 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=189928 I=0194840 bytes=33000000f4e50200 op=51:JUMP operands=[189940] length=8 target C=189940 inside-region
+C=189936 I=0194848 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=189940 I=0194852 bytes=3500000010e60200 op=53:JZER operands=[189968] length=8 target C=189968 inside-region
+C=189948 I=0194860 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4792
+C=189952 I=0194864 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=189960 I=0194872 bytes=11000000d4ffffff op=17:STOR_S_PRI operands=[-44] length=8 bFinished (confirmed: direct slot write)
+C=189968 I=0194880 bytes=3300000054e60200 op=51:JUMP operands=[190036] length=8 target C=190036 inside-region
+C=189976 I=0194888 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4796
+C=189980 I=0194892 bytes=0e000000e0ffffff op=14:ADDR_ALT operands=[-32] length=8 prev_WSAD (confirmed address: frame address formation)
+C=189988 I=0194900 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=189996 I=0194908 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=190004 I=0194916 bytes=19000000 op=25:LIDX operands=[] length=4
+C=190008 I=0194920 bytes=3500000054e60200 op=53:JZER operands=[190036] length=8 target C=190036 inside-region
+C=190016 I=0194928 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4797
+C=190020 I=0194932 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=190028 I=0194940 bytes=11000000d4ffffff op=17:STOR_S_PRI operands=[-44] length=8 bFinished (confirmed: direct slot write)
+C=190036 I=0194948 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4800
+C=190040 I=0194952 bytes=03000000d4ffffff op=3:LOAD_S_PRI operands=[-44] length=8 bFinished (confirmed: direct slot read)
+C=190048 I=0194960 bytes=350000009ced0200 op=53:JZER operands=[191900] length=8 target C=191900 inside-region
+C=190056 I=0194968 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4802
+C=190060 I=0194972 bytes=01000000f8f20600 op=1:LOAD_PRI operands=[455416] length=8 g_cvarStrafesFullOverlap (confirmed: direct slot read)
+C=190068 I=0194980 bytes=3600000030e70200 op=54:JNZ operands=[190256] length=8 target C=190256 inside-region
+C=190076 I=0194988 bytes=0c000000900f0400 op=12:CONST_ALT operands=[266128] length=8 g_iWSADFrames (candidate: constant equals global D address; possible address materialization)
+C=190084 I=0194996 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190092 I=0195004 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190100 I=0195012 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190104 I=0195016 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=190108 I=0195020 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190112 I=0195024 bytes=4e000000 op=78:ADD operands=[] length=4
+C=190116 I=0195028 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190120 I=0195032 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=190128 I=0195040 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=190136 I=0195048 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190140 I=0195052 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190144 I=0195056 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190148 I=0195060 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190152 I=0195064 bytes=0c000000e0190400 op=12:CONST_ALT operands=[268768] length=8 g_iWSADOverlaps (candidate: constant equals global D address; possible address materialization)
+C=190160 I=0195072 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190168 I=0195080 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190176 I=0195088 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190180 I=0195092 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=190184 I=0195096 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190188 I=0195100 bytes=4e000000 op=78:ADD operands=[] length=4
+C=190192 I=0195104 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190196 I=0195108 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=190204 I=0195116 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=190212 I=0195124 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190216 I=0195128 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190220 I=0195132 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190224 I=0195136 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190228 I=0195140 bytes=23000000 op=35:XCHG operands=[] length=4
+C=190232 I=0195144 bytes=67000000 op=103:SGRTR operands=[] length=4
+C=190236 I=0195148 bytes=3600000030e70200 op=54:JNZ operands=[190256] length=8 target C=190256 inside-region
+C=190244 I=0195156 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=190248 I=0195160 bytes=3300000038e70200 op=51:JUMP operands=[190264] length=8 target C=190264 inside-region
+C=190256 I=0195168 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=190264 I=0195176 bytes=350000009ced0200 op=53:JZER operands=[191900] length=8 target C=191900 inside-region
+C=190272 I=0195184 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4805
+C=190276 I=0195188 bytes=0c0000009c210400 op=12:CONST_ALT operands=[270748] length=8 g_iStrafeType (candidate: constant equals global D address; possible address materialization)
+C=190284 I=0195196 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190292 I=0195204 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190300 I=0195212 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190304 I=0195216 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=190308 I=0195220 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190312 I=0195224 bytes=4e000000 op=78:ADD operands=[] length=4
+C=190316 I=0195228 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190320 I=0195232 bytes=0c000000fcf30400 op=12:CONST_ALT operands=[324604] length=8 g_iStrafeCount (candidate: constant equals global D address; possible address materialization)
+C=190328 I=0195240 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190336 I=0195248 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190344 I=0195256 bytes=19000000 op=25:LIDX operands=[] length=4
+C=190348 I=0195260 bytes=7900000031000000 op=121:BOUNDS operands=[49] length=8
+C=190356 I=0195268 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190360 I=0195272 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190364 I=0195276 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=190368 I=0195280 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=190376 I=0195288 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=190380 I=0195292 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4806
+C=190384 I=0195296 bytes=0c000000e83b0400 op=12:CONST_ALT operands=[277480] length=8 g_iStrafeFrames (candidate: constant equals global D address; possible address materialization)
+C=190392 I=0195304 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190400 I=0195312 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190408 I=0195320 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190412 I=0195324 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=190416 I=0195328 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190420 I=0195332 bytes=4e000000 op=78:ADD operands=[] length=4
+C=190424 I=0195336 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190428 I=0195340 bytes=0c000000fcf30400 op=12:CONST_ALT operands=[324604] length=8 g_iStrafeCount (candidate: constant equals global D address; possible address materialization)
+C=190436 I=0195348 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190444 I=0195356 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190452 I=0195364 bytes=19000000 op=25:LIDX operands=[] length=4
+C=190456 I=0195368 bytes=7900000031000000 op=121:BOUNDS operands=[49] length=8
+C=190464 I=0195376 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190468 I=0195380 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190472 I=0195384 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190476 I=0195388 bytes=0c000000900f0400 op=12:CONST_ALT operands=[266128] length=8 g_iWSADFrames (candidate: constant equals global D address; possible address materialization)
+C=190484 I=0195396 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190492 I=0195404 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190500 I=0195412 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190504 I=0195416 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=190508 I=0195420 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190512 I=0195424 bytes=4e000000 op=78:ADD operands=[] length=4
+C=190516 I=0195428 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190520 I=0195432 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=190528 I=0195440 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=190536 I=0195448 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190540 I=0195452 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190544 I=0195456 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190548 I=0195460 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190552 I=0195464 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=190556 I=0195468 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4807
+C=190560 I=0195472 bytes=0c00000034560400 op=12:CONST_ALT operands=[284212] length=8 g_flStrafeGain (candidate: constant equals global D address; possible address materialization)
+C=190568 I=0195480 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190576 I=0195488 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190584 I=0195496 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190588 I=0195500 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=190592 I=0195504 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190596 I=0195508 bytes=4e000000 op=78:ADD operands=[] length=4
+C=190600 I=0195512 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190604 I=0195516 bytes=0c000000fcf30400 op=12:CONST_ALT operands=[324604] length=8 g_iStrafeCount (candidate: constant equals global D address; possible address materialization)
+C=190612 I=0195524 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190620 I=0195532 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190628 I=0195540 bytes=19000000 op=25:LIDX operands=[] length=4
+C=190632 I=0195544 bytes=7900000031000000 op=121:BOUNDS operands=[49] length=8
+C=190640 I=0195552 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190644 I=0195556 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190648 I=0195560 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190652 I=0195564 bytes=0c00000024120400 op=12:CONST_ALT operands=[266788] length=8 g_flWSADGain (candidate: constant equals global D address; possible address materialization)
+C=190660 I=0195572 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190668 I=0195580 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190676 I=0195588 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190680 I=0195592 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=190684 I=0195596 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190688 I=0195600 bytes=4e000000 op=78:ADD operands=[] length=4
+C=190692 I=0195604 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190696 I=0195608 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=190704 I=0195616 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=190712 I=0195624 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190716 I=0195628 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190720 I=0195632 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190724 I=0195636 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190728 I=0195640 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=190732 I=0195644 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4808
+C=190736 I=0195648 bytes=0c00000080700400 op=12:CONST_ALT operands=[290944] length=8 g_flStrafeLoss (candidate: constant equals global D address; possible address materialization)
+C=190744 I=0195656 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190752 I=0195664 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190760 I=0195672 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190764 I=0195676 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=190768 I=0195680 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190772 I=0195684 bytes=4e000000 op=78:ADD operands=[] length=4
+C=190776 I=0195688 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190780 I=0195692 bytes=0c000000fcf30400 op=12:CONST_ALT operands=[324604] length=8 g_iStrafeCount (candidate: constant equals global D address; possible address materialization)
+C=190788 I=0195700 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190796 I=0195708 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190804 I=0195716 bytes=19000000 op=25:LIDX operands=[] length=4
+C=190808 I=0195720 bytes=7900000031000000 op=121:BOUNDS operands=[49] length=8
+C=190816 I=0195728 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190820 I=0195732 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190824 I=0195736 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190828 I=0195740 bytes=0c000000b8140400 op=12:CONST_ALT operands=[267448] length=8 g_flWSADLoss (candidate: constant equals global D address; possible address materialization)
+C=190836 I=0195748 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190844 I=0195756 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190852 I=0195764 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190856 I=0195768 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=190860 I=0195772 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190864 I=0195776 bytes=4e000000 op=78:ADD operands=[] length=4
+C=190868 I=0195780 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190872 I=0195784 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=190880 I=0195792 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=190888 I=0195800 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190892 I=0195804 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190896 I=0195808 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190900 I=0195812 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190904 I=0195816 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=190908 I=0195820 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4809
+C=190912 I=0195824 bytes=0c000000cc8a0400 op=12:CONST_ALT operands=[297676] length=8 g_iStrafeOverlaps (candidate: constant equals global D address; possible address materialization)
+C=190920 I=0195832 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190928 I=0195840 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190936 I=0195848 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=190940 I=0195852 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=190944 I=0195856 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=190948 I=0195860 bytes=4e000000 op=78:ADD operands=[] length=4
+C=190952 I=0195864 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=190956 I=0195868 bytes=0c000000fcf30400 op=12:CONST_ALT operands=[324604] length=8 g_iStrafeCount (candidate: constant equals global D address; possible address materialization)
+C=190964 I=0195876 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=190972 I=0195884 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=190980 I=0195892 bytes=19000000 op=25:LIDX operands=[] length=4
+C=190984 I=0195896 bytes=7900000031000000 op=121:BOUNDS operands=[49] length=8
+C=190992 I=0195904 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=190996 I=0195908 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191000 I=0195912 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191004 I=0195916 bytes=0c000000e0190400 op=12:CONST_ALT operands=[268768] length=8 g_iWSADOverlaps (candidate: constant equals global D address; possible address materialization)
+C=191012 I=0195924 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191020 I=0195932 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191028 I=0195940 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191032 I=0195944 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=191036 I=0195948 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191040 I=0195952 bytes=4e000000 op=78:ADD operands=[] length=4
+C=191044 I=0195956 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191048 I=0195960 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=191056 I=0195968 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=191064 I=0195976 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191068 I=0195980 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191072 I=0195984 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191076 I=0195988 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191080 I=0195992 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=191084 I=0195996 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4810
+C=191088 I=0196000 bytes=0c00000018a50400 op=12:CONST_ALT operands=[304408] length=8 g_flStrafeEfficiency (candidate: constant equals global D address; possible address materialization)
+C=191096 I=0196008 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191104 I=0196016 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191112 I=0196024 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191116 I=0196028 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=191120 I=0196032 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191124 I=0196036 bytes=4e000000 op=78:ADD operands=[] length=4
+C=191128 I=0196040 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191132 I=0196044 bytes=0c000000fcf30400 op=12:CONST_ALT operands=[324604] length=8 g_iStrafeCount (candidate: constant equals global D address; possible address materialization)
+C=191140 I=0196052 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191148 I=0196060 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191156 I=0196068 bytes=19000000 op=25:LIDX operands=[] length=4
+C=191160 I=0196072 bytes=7900000031000000 op=121:BOUNDS operands=[49] length=8
+C=191168 I=0196080 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191172 I=0196084 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191176 I=0196088 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191180 I=0196092 bytes=0c0000004c170400 op=12:CONST_ALT operands=[268108] length=8 g_iWSADGoodFrames (candidate: constant equals global D address; possible address materialization)
+C=191188 I=0196100 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191196 I=0196108 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191204 I=0196116 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191208 I=0196120 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=191212 I=0196124 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191216 I=0196128 bytes=4e000000 op=78:ADD operands=[] length=4
+C=191220 I=0196132 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191224 I=0196136 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=191232 I=0196144 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=191240 I=0196152 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191244 I=0196156 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191248 I=0196160 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191252 I=0196164 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191256 I=0196168 bytes=2700000004000000 op=39:PUSH_C operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=191264 I=0196176 bytes=7b00000000000000 op=123:SYSREQ_C operands=[0] length=8 native=float
+C=191272 I=0196184 bytes=2c00000008000000 op=44:STACK operands=[8] length=8
+C=191280 I=0196192 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191284 I=0196196 bytes=0c000000900f0400 op=12:CONST_ALT operands=[266128] length=8 g_iWSADFrames (candidate: constant equals global D address; possible address materialization)
+C=191292 I=0196204 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191300 I=0196212 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191308 I=0196220 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191312 I=0196224 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=191316 I=0196228 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191320 I=0196232 bytes=4e000000 op=78:ADD operands=[] length=4
+C=191324 I=0196236 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191328 I=0196240 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=191336 I=0196248 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=191344 I=0196256 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191348 I=0196260 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191352 I=0196264 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191356 I=0196268 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191360 I=0196272 bytes=2700000004000000 op=39:PUSH_C operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=191368 I=0196280 bytes=7b00000000000000 op=123:SYSREQ_C operands=[0] length=8 native=float
+C=191376 I=0196288 bytes=2c00000008000000 op=44:STACK operands=[8] length=8
+C=191384 I=0196296 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191388 I=0196300 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191392 I=0196304 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=191396 I=0196308 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=191404 I=0196316 bytes=7b00000014000000 op=123:SYSREQ_C operands=[20] length=8 native=floatdiv
+C=191412 I=0196324 bytes=2c0000000c000000 op=44:STACK operands=[12] length=8
+C=191420 I=0196332 bytes=0c0000000000c842 op=12:CONST_ALT operands=[1120403456] length=8
+C=191428 I=0196340 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191432 I=0196344 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=191436 I=0196348 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=191444 I=0196356 bytes=7b00000011000000 op=123:SYSREQ_C operands=[17] length=8 native=floatmul
+C=191452 I=0196364 bytes=2c0000000c000000 op=44:STACK operands=[12] length=8
+C=191460 I=0196372 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191464 I=0196376 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=191468 I=0196380 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4811
+C=191472 I=0196384 bytes=0c00000064bf0400 op=12:CONST_ALT operands=[311140] length=8 g_iStrafeDesync (candidate: constant equals global D address; possible address materialization)
+C=191480 I=0196392 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191488 I=0196400 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191496 I=0196408 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191500 I=0196412 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=191504 I=0196416 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191508 I=0196420 bytes=4e000000 op=78:ADD operands=[] length=4
+C=191512 I=0196424 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191516 I=0196428 bytes=0c000000fcf30400 op=12:CONST_ALT operands=[324604] length=8 g_iStrafeCount (candidate: constant equals global D address; possible address materialization)
+C=191524 I=0196436 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191532 I=0196444 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191540 I=0196452 bytes=19000000 op=25:LIDX operands=[] length=4
+C=191544 I=0196456 bytes=7900000031000000 op=121:BOUNDS operands=[49] length=8
+C=191552 I=0196464 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191556 I=0196468 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191560 I=0196472 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191564 I=0196476 bytes=0c000000741c0400 op=12:CONST_ALT operands=[269428] length=8 g_iWSADDesync (candidate: constant equals global D address; possible address materialization)
+C=191572 I=0196484 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191580 I=0196492 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191588 I=0196500 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191592 I=0196504 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=191596 I=0196508 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191600 I=0196512 bytes=4e000000 op=78:ADD operands=[] length=4
+C=191604 I=0196516 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191608 I=0196520 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=191616 I=0196528 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=191624 I=0196536 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191628 I=0196540 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191632 I=0196544 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191636 I=0196548 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191640 I=0196552 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=191644 I=0196556 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4812
+C=191648 I=0196560 bytes=0c000000b0d90400 op=12:CONST_ALT operands=[317872] length=8 g_flStrafeAngle (candidate: constant equals global D address; possible address materialization)
+C=191656 I=0196568 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191664 I=0196576 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191672 I=0196584 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191676 I=0196588 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=191680 I=0196592 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191684 I=0196596 bytes=4e000000 op=78:ADD operands=[] length=4
+C=191688 I=0196600 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191692 I=0196604 bytes=0c000000fcf30400 op=12:CONST_ALT operands=[324604] length=8 g_iStrafeCount (candidate: constant equals global D address; possible address materialization)
+C=191700 I=0196612 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191708 I=0196620 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191716 I=0196628 bytes=19000000 op=25:LIDX operands=[] length=4
+C=191720 I=0196632 bytes=7900000031000000 op=121:BOUNDS operands=[49] length=8
+C=191728 I=0196640 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191732 I=0196644 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191736 I=0196648 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191740 I=0196652 bytes=0c000000081f0400 op=12:CONST_ALT operands=[270088] length=8 g_flWSADAngle (candidate: constant equals global D address; possible address materialization)
+C=191748 I=0196660 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191756 I=0196668 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191764 I=0196676 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191768 I=0196680 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=191772 I=0196684 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191776 I=0196688 bytes=4e000000 op=78:ADD operands=[] length=4
+C=191780 I=0196692 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191784 I=0196696 bytes=03000000d0ffffff op=3:LOAD_S_PRI operands=[-48] length=8 i (confirmed: direct slot read)
+C=191792 I=0196704 bytes=7900000003000000 op=121:BOUNDS operands=[3] length=8
+C=191800 I=0196712 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191804 I=0196716 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191808 I=0196720 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191812 I=0196724 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191816 I=0196728 bytes=2700000004000000 op=39:PUSH_C operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=191824 I=0196736 bytes=7b00000054000000 op=123:SYSREQ_C operands=[84] length=8 native=floatabs
+C=191832 I=0196744 bytes=2c00000008000000 op=44:STACK operands=[8] length=8
+C=191840 I=0196752 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=191844 I=0196756 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=191848 I=0196760 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4813
+C=191852 I=0196764 bytes=0c000000fcf30400 op=12:CONST_ALT operands=[324604] length=8 g_iStrafeCount (candidate: constant equals global D address; possible address materialization)
+C=191860 I=0196772 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191868 I=0196780 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191876 I=0196788 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=191880 I=0196792 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=191884 I=0196796 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=191888 I=0196800 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=191892 I=0196804 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=191896 I=0196808 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=191900 I=0196812 bytes=33000000e0e40200 op=51:JUMP operands=[189664] length=8 target C=189664 inside-region
+C=191908 I=0196820 bytes=2c00000004000000 op=44:STACK operands=[4] length=8
+C=191916 I=0196828 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4819
+C=191920 I=0196832 bytes=0c000000a8e10600 op=12:CONST_ALT operands=[450984] length=8 g_setBeam (candidate: constant equals global D address; possible address materialization)
+C=191928 I=0196840 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=191936 I=0196848 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=191944 I=0196856 bytes=19000000 op=25:LIDX operands=[] length=4
+C=191948 I=0196860 bytes=35000000f8ed0200 op=53:JZER operands=[191992] length=8 target C=191992 inside-region
+C=191956 I=0196868 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4820
+C=191960 I=0196872 bytes=2900000014000000 op=41:PUSH_S operands=[20] length=8 flGain (confirmed: direct slot read)
+C=191968 I=0196880 bytes=290000000c000000 op=41:PUSH_S operands=[12] length=8 id (confirmed: direct slot read)
+C=191976 I=0196888 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=191984 I=0196896 bytes=31000000e8ef0200 op=49:CALL operands=[192488] length=8 target C=192488 outside-region/global-boundary saveBeam
+C=191992 I=0196904 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4823
+C=191996 I=0196908 bytes=030000001c000000 op=3:LOAD_S_PRI operands=[28] length=8 bBadLastFrame (confirmed: direct slot read)
+C=192004 I=0196916 bytes=54000000 op=84:NOT operands=[] length=4
+C=192008 I=0196920 bytes=350000007cef0200 op=53:JZER operands=[192380] length=8 target C=192380 inside-region
+C=192016 I=0196928 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4825
+C=192020 I=0196932 bytes=0c0000004c0d0500 op=12:CONST_ALT operands=[331084] length=8 g_flOrigin (candidate: constant equals global D address; possible address materialization)
+C=192028 I=0196940 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=192036 I=0196948 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=192044 I=0196956 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=192048 I=0196960 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=192052 I=0196964 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=192056 I=0196968 bytes=4e000000 op=78:ADD operands=[] length=4
+C=192060 I=0196972 bytes=5700000008000000 op=87:ADD_C operands=[8] length=8
+C=192068 I=0196980 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=192072 I=0196984 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=192076 I=0196988 bytes=0c000000442d0500 op=12:CONST_ALT operands=[339268] length=8 g_flMaxZ (candidate: constant equals global D address; possible address materialization)
+C=192084 I=0196996 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=192092 I=0197004 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=192100 I=0197012 bytes=19000000 op=25:LIDX operands=[] length=4
+C=192104 I=0197016 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=192108 I=0197020 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=192112 I=0197024 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=192116 I=0197028 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=192120 I=0197032 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=192128 I=0197040 bytes=31000000ac020000 op=49:CALL operands=[684] length=8 target C=684 outside-region/global-boundary operator>(Float:,Float:)
+C=192136 I=0197048 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=192140 I=0197052 bytes=35000000f4ee0200 op=53:JZER operands=[192244] length=8 target C=192244 inside-region
+C=192148 I=0197060 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4826
+C=192152 I=0197064 bytes=0c000000442d0500 op=12:CONST_ALT operands=[339268] length=8 g_flMaxZ (candidate: constant equals global D address; possible address materialization)
+C=192160 I=0197072 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=192168 I=0197080 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=192176 I=0197088 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=192180 I=0197092 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=192184 I=0197096 bytes=0c0000004c0d0500 op=12:CONST_ALT operands=[331084] length=8 g_flOrigin (candidate: constant equals global D address; possible address materialization)
+C=192192 I=0197104 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=192200 I=0197112 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=192208 I=0197120 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=192212 I=0197124 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=192216 I=0197128 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=192220 I=0197132 bytes=4e000000 op=78:ADD operands=[] length=4
+C=192224 I=0197136 bytes=5700000008000000 op=87:ADD_C operands=[8] length=8
+C=192232 I=0197144 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=192236 I=0197148 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=192240 I=0197152 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=192244 I=0197156 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4828
+C=192248 I=0197160 bytes=0300000010000000 op=3:LOAD_S_PRI operands=[16] length=8 flHorSpeed (confirmed: direct slot read)
+C=192256 I=0197168 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=192260 I=0197172 bytes=0c000000c02c0500 op=12:CONST_ALT operands=[339136] length=8 g_flMaxSpeed (candidate: constant equals global D address; possible address materialization)
+C=192268 I=0197180 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=192276 I=0197188 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=192284 I=0197196 bytes=19000000 op=25:LIDX operands=[] length=4
+C=192288 I=0197200 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=192292 I=0197204 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=192296 I=0197208 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=192300 I=0197212 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=192304 I=0197216 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=192312 I=0197224 bytes=31000000ac020000 op=49:CALL operands=[684] length=8 target C=684 outside-region/global-boundary operator>(Float:,Float:)
+C=192320 I=0197232 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=192324 I=0197236 bytes=350000007cef0200 op=53:JZER operands=[192380] length=8 target C=192380 inside-region
+C=192332 I=0197244 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4829
+C=192336 I=0197248 bytes=0c000000c02c0500 op=12:CONST_ALT operands=[339136] length=8 g_flMaxSpeed (candidate: constant equals global D address; possible address materialization)
+C=192344 I=0197256 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=192352 I=0197264 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=192360 I=0197272 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=192364 I=0197276 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=192368 I=0197280 bytes=0300000010000000 op=3:LOAD_S_PRI operands=[16] length=8 flHorSpeed (confirmed: direct slot read)
+C=192376 I=0197288 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=192380 I=0197292 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4832
+C=192384 I=0197296 bytes=0c000000e0000500 op=12:CONST_ALT operands=[327904] length=8 g_bInDuck (candidate: constant equals global D address; possible address materialization)
+C=192392 I=0197304 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=192400 I=0197312 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=192408 I=0197320 bytes=19000000 op=25:LIDX operands=[] length=4
+C=192412 I=0197324 bytes=35000000d8ef0200 op=53:JZER operands=[192472] length=8 target C=192472 inside-region
+C=192420 I=0197332 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=4833
+C=192424 I=0197336 bytes=0c000000c82d0500 op=12:CONST_ALT operands=[339400] length=8 g_iFramesInDuck (candidate: constant equals global D address; possible address materialization)
+C=192432 I=0197344 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=192440 I=0197352 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=192448 I=0197360 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=192452 I=0197364 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=192456 I=0197368 bytes=09000000 op=9:LOAD_I operands=[] length=4
+C=192460 I=0197372 bytes=83000000 op=131:SWAP_PRI operands=[] length=4
+C=192464 I=0197376 bytes=6f000000 op=111:INC_I operands=[] length=4
+C=192468 I=0197380 bytes=2a000000 op=42:POP_PRI operands=[] length=4
+C=192472 I=0197384 bytes=2c0000002c000000 op=44:STACK operands=[44] length=8
+C=192480 I=0197392 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=192484 I=0197396 bytes=30000000 op=48:RETN operands=[] length=4

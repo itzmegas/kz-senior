@@ -1,0 +1,1621 @@
+{
+  "isa": [
+    {
+      "flow": false,
+      "id": 1,
+      "length": 8,
+      "name": "LOAD_PRI",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 2,
+      "length": 8,
+      "name": "LOAD_ALT",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 3,
+      "length": 8,
+      "name": "LOAD_S_PRI",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 4,
+      "length": 8,
+      "name": "LOAD_S_ALT",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 5,
+      "length": 8,
+      "name": "LREF_PRI",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 6,
+      "length": 8,
+      "name": "LREF_ALT",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 7,
+      "length": 8,
+      "name": "LREF_S_PRI",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 8,
+      "length": 8,
+      "name": "LREF_S_ALT",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 9,
+      "length": 4,
+      "name": "LOAD_I",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 10,
+      "length": 8,
+      "name": "LODB_I",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 11,
+      "length": 8,
+      "name": "CONST_PRI",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 12,
+      "length": 8,
+      "name": "CONST_ALT",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 13,
+      "length": 8,
+      "name": "ADDR_PRI",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 14,
+      "length": 8,
+      "name": "ADDR_ALT",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 15,
+      "length": 8,
+      "name": "STOR_PRI",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 16,
+      "length": 8,
+      "name": "STOR_ALT",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 17,
+      "length": 8,
+      "name": "STOR_S_PRI",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 18,
+      "length": 8,
+      "name": "STOR_S_ALT",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 19,
+      "length": 8,
+      "name": "SREF_PRI",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 20,
+      "length": 8,
+      "name": "SREF_ALT",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 21,
+      "length": 8,
+      "name": "SREF_S_PRI",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 22,
+      "length": 8,
+      "name": "SREF_S_ALT",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 23,
+      "length": 4,
+      "name": "STOR_I",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 24,
+      "length": 8,
+      "name": "STRB_I",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 25,
+      "length": 4,
+      "name": "LIDX",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 26,
+      "length": 8,
+      "name": "LIDX_B",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 27,
+      "length": 4,
+      "name": "IDXADDR",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 28,
+      "length": 8,
+      "name": "IDXADDR_B",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 29,
+      "length": 8,
+      "name": "ALIGN_PRI",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 30,
+      "length": 8,
+      "name": "ALIGN_ALT",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 31,
+      "length": 8,
+      "name": "LCTRL",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": true,
+      "id": 32,
+      "length": 8,
+      "name": "SCTRL",
+      "operands": [
+        "control_register"
+      ],
+      "rule": "register 6 writes CIP from PRI (indirect jump); amx.cpp:1984-2005"
+    },
+    {
+      "flow": false,
+      "id": 33,
+      "length": 4,
+      "name": "MOVE_PRI",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 34,
+      "length": 4,
+      "name": "MOVE_ALT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 35,
+      "length": 4,
+      "name": "XCHG",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 36,
+      "length": 4,
+      "name": "PUSH_PRI",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 37,
+      "length": 4,
+      "name": "PUSH_ALT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 38,
+      "length": 8,
+      "name": "PUSH_R",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 39,
+      "length": 8,
+      "name": "PUSH_C",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 40,
+      "length": 8,
+      "name": "PUSH",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 41,
+      "length": 8,
+      "name": "PUSH_S",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 42,
+      "length": 4,
+      "name": "POP_PRI",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 43,
+      "length": 4,
+      "name": "POP_ALT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 44,
+      "length": 8,
+      "name": "STACK",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 45,
+      "length": 8,
+      "name": "HEAP",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 46,
+      "length": 4,
+      "name": "PROC",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": true,
+      "id": 47,
+      "length": 4,
+      "name": "RET",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": true,
+      "id": 48,
+      "length": 4,
+      "name": "RETN",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": true,
+      "id": 49,
+      "length": 8,
+      "name": "CALL",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 50,
+      "length": 4,
+      "name": "CALL_PRI",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": true,
+      "id": 51,
+      "length": 8,
+      "name": "JUMP",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 52,
+      "length": 8,
+      "name": "JREL",
+      "operands": [
+        "displacement"
+      ],
+      "rule": "C + 8 + signed displacement"
+    },
+    {
+      "flow": true,
+      "id": 53,
+      "length": 8,
+      "name": "JZER",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 54,
+      "length": 8,
+      "name": "JNZ",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 55,
+      "length": 8,
+      "name": "JEQ",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 56,
+      "length": 8,
+      "name": "JNEQ",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 57,
+      "length": 8,
+      "name": "JLESS",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 58,
+      "length": 8,
+      "name": "JLEQ",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 59,
+      "length": 8,
+      "name": "JGRTR",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 60,
+      "length": 8,
+      "name": "JGEQ",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 61,
+      "length": 8,
+      "name": "JSLESS",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 62,
+      "length": 8,
+      "name": "JSLEQ",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 63,
+      "length": 8,
+      "name": "JSGRTR",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": true,
+      "id": 64,
+      "length": 8,
+      "name": "JSGEQ",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": false,
+      "id": 65,
+      "length": 4,
+      "name": "SHL",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 66,
+      "length": 4,
+      "name": "SHR",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 67,
+      "length": 4,
+      "name": "SSHR",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 68,
+      "length": 8,
+      "name": "SHL_C_PRI",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 69,
+      "length": 8,
+      "name": "SHL_C_ALT",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 70,
+      "length": 8,
+      "name": "SHR_C_PRI",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 71,
+      "length": 8,
+      "name": "SHR_C_ALT",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 72,
+      "length": 4,
+      "name": "SMUL",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 73,
+      "length": 4,
+      "name": "SDIV",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 74,
+      "length": 4,
+      "name": "SDIV_ALT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 75,
+      "length": 4,
+      "name": "UMUL",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 76,
+      "length": 4,
+      "name": "UDIV",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 77,
+      "length": 4,
+      "name": "UDIV_ALT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 78,
+      "length": 4,
+      "name": "ADD",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 79,
+      "length": 4,
+      "name": "SUB",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 80,
+      "length": 4,
+      "name": "SUB_ALT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 81,
+      "length": 4,
+      "name": "AND",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 82,
+      "length": 4,
+      "name": "OR",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 83,
+      "length": 4,
+      "name": "XOR",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 84,
+      "length": 4,
+      "name": "NOT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 85,
+      "length": 4,
+      "name": "NEG",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 86,
+      "length": 4,
+      "name": "INVERT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 87,
+      "length": 8,
+      "name": "ADD_C",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 88,
+      "length": 8,
+      "name": "SMUL_C",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 89,
+      "length": 4,
+      "name": "ZERO_PRI",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 90,
+      "length": 4,
+      "name": "ZERO_ALT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 91,
+      "length": 8,
+      "name": "ZERO",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 92,
+      "length": 8,
+      "name": "ZERO_S",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 93,
+      "length": 4,
+      "name": "SIGN_PRI",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 94,
+      "length": 4,
+      "name": "SIGN_ALT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 95,
+      "length": 4,
+      "name": "EQ",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 96,
+      "length": 4,
+      "name": "NEQ",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 97,
+      "length": 4,
+      "name": "LESS",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 98,
+      "length": 4,
+      "name": "LEQ",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 99,
+      "length": 4,
+      "name": "GRTR",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 100,
+      "length": 4,
+      "name": "GEQ",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 101,
+      "length": 4,
+      "name": "SLESS",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 102,
+      "length": 4,
+      "name": "SLEQ",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 103,
+      "length": 4,
+      "name": "SGRTR",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 104,
+      "length": 4,
+      "name": "SGEQ",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 105,
+      "length": 8,
+      "name": "EQ_C_PRI",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 106,
+      "length": 8,
+      "name": "EQ_C_ALT",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 107,
+      "length": 4,
+      "name": "INC_PRI",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 108,
+      "length": 4,
+      "name": "INC_ALT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 109,
+      "length": 8,
+      "name": "INC",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 110,
+      "length": 8,
+      "name": "INC_S",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 111,
+      "length": 4,
+      "name": "INC_I",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 112,
+      "length": 4,
+      "name": "DEC_PRI",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 113,
+      "length": 4,
+      "name": "DEC_ALT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 114,
+      "length": 8,
+      "name": "DEC",
+      "operands": [
+        "D"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 115,
+      "length": 8,
+      "name": "DEC_S",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 116,
+      "length": 4,
+      "name": "DEC_I",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 117,
+      "length": 8,
+      "name": "MOVS",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 118,
+      "length": 8,
+      "name": "CMPS",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 119,
+      "length": 8,
+      "name": "FILL",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": true,
+      "id": 120,
+      "length": 8,
+      "name": "HALT",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 121,
+      "length": 8,
+      "name": "BOUNDS",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": true,
+      "id": 122,
+      "length": 4,
+      "name": "SYSREQ_PRI",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": true,
+      "id": 123,
+      "length": 8,
+      "name": "SYSREQ_C",
+      "operands": [
+        "native_index"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 124,
+      "length": null,
+      "name": "FILE",
+      "operands": [
+        "byte_count",
+        "payload"
+      ],
+      "rule": "8 + byte_count; opaque obsolete debug payload"
+    },
+    {
+      "flow": false,
+      "id": 125,
+      "length": 12,
+      "name": "LINE",
+      "operands": [
+        "cell",
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 126,
+      "length": null,
+      "name": "SYMBOL",
+      "operands": [
+        "byte_count",
+        "payload"
+      ],
+      "rule": "8 + byte_count; opaque obsolete debug payload"
+    },
+    {
+      "flow": false,
+      "id": 127,
+      "length": 12,
+      "name": "SRANGE",
+      "operands": [
+        "cell",
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": true,
+      "id": 128,
+      "length": 4,
+      "name": "JUMP_PRI",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": true,
+      "id": 129,
+      "length": 8,
+      "name": "SWITCH",
+      "operands": [
+        "C"
+      ],
+      "rule": "absolute C target"
+    },
+    {
+      "flow": false,
+      "id": 130,
+      "length": null,
+      "name": "CASETBL",
+      "operands": [
+        "count",
+        "default_C",
+        "value/C pairs"
+      ],
+      "rule": "4 * (3 + 2 * count); non-executable"
+    },
+    {
+      "flow": false,
+      "id": 131,
+      "length": 4,
+      "name": "SWAP_PRI",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 132,
+      "length": 4,
+      "name": "SWAP_ALT",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 133,
+      "length": 8,
+      "name": "PUSHADDR",
+      "operands": [
+        "FRM"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 134,
+      "length": 4,
+      "name": "NOP",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": true,
+      "id": 135,
+      "length": 8,
+      "name": "SYSREQ_D",
+      "operands": [
+        "native_pointer"
+      ],
+      "rule": "runtime direct pointer; not an index"
+    },
+    {
+      "flow": false,
+      "id": 136,
+      "length": 8,
+      "name": "SYMTAG",
+      "operands": [
+        "cell"
+      ],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 137,
+      "length": 4,
+      "name": "BREAK",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 138,
+      "length": 4,
+      "name": "FLOAT_MUL",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 139,
+      "length": 4,
+      "name": "FLOAT_DIV",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 140,
+      "length": 4,
+      "name": "FLOAT_ADD",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 141,
+      "length": 4,
+      "name": "FLOAT_SUB",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 142,
+      "length": 4,
+      "name": "FLOAT_TO",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 143,
+      "length": 4,
+      "name": "FLOAT_ROUND",
+      "operands": [],
+      "rule": "fixed"
+    },
+    {
+      "flow": false,
+      "id": 144,
+      "length": 4,
+      "name": "FLOAT_CMP",
+      "operands": [],
+      "rule": "fixed"
+    }
+  ],
+  "observed": {
+    "ADD": {
+      "count": 978,
+      "id": 78
+    },
+    "ADDR_ALT": {
+      "count": 170,
+      "id": 14
+    },
+    "ADDR_PRI": {
+      "count": 281,
+      "id": 13
+    },
+    "ADD_C": {
+      "count": 857,
+      "id": 87
+    },
+    "AND": {
+      "count": 58,
+      "id": 81
+    },
+    "BOUNDS": {
+      "count": 2679,
+      "id": 121
+    },
+    "BREAK": {
+      "count": 4536,
+      "id": 137
+    },
+    "CALL": {
+      "count": 795,
+      "id": 49
+    },
+    "CASETBL": {
+      "count": 27,
+      "id": 130
+    },
+    "CONST_ALT": {
+      "count": 2386,
+      "id": 12
+    },
+    "CONST_PRI": {
+      "count": 1668,
+      "id": 11
+    },
+    "DEC_I": {
+      "count": 4,
+      "id": 116
+    },
+    "DEC_S": {
+      "count": 14,
+      "id": 115
+    },
+    "EQ": {
+      "count": 3,
+      "id": 95
+    },
+    "EQ_C_PRI": {
+      "count": 187,
+      "id": 105
+    },
+    "FILL": {
+      "count": 117,
+      "id": 119
+    },
+    "HALT": {
+      "count": 1,
+      "id": 120
+    },
+    "HEAP": {
+      "count": 326,
+      "id": 45
+    },
+    "IDXADDR": {
+      "count": 1805,
+      "id": 27
+    },
+    "INC_I": {
+      "count": 40,
+      "id": 111
+    },
+    "INC_S": {
+      "count": 58,
+      "id": 110
+    },
+    "JEQ": {
+      "count": 57,
+      "id": 55
+    },
+    "JNEQ": {
+      "count": 20,
+      "id": 56
+    },
+    "JNZ": {
+      "count": 197,
+      "id": 54
+    },
+    "JSGEQ": {
+      "count": 86,
+      "id": 64
+    },
+    "JSGRTR": {
+      "count": 27,
+      "id": 63
+    },
+    "JSLEQ": {
+      "count": 76,
+      "id": 62
+    },
+    "JSLESS": {
+      "count": 27,
+      "id": 61
+    },
+    "JUMP": {
+      "count": 1158,
+      "id": 51
+    },
+    "JZER": {
+      "count": 1199,
+      "id": 53
+    },
+    "LIDX": {
+      "count": 876,
+      "id": 25
+    },
+    "LOAD_ALT": {
+      "count": 7,
+      "id": 2
+    },
+    "LOAD_I": {
+      "count": 1746,
+      "id": 9
+    },
+    "LOAD_PRI": {
+      "count": 179,
+      "id": 1
+    },
+    "LOAD_S_ALT": {
+      "count": 156,
+      "id": 4
+    },
+    "LOAD_S_PRI": {
+      "count": 3455,
+      "id": 3
+    },
+    "LREF_S_PRI": {
+      "count": 27,
+      "id": 7
+    },
+    "MOVE_ALT": {
+      "count": 1717,
+      "id": 34
+    },
+    "MOVE_PRI": {
+      "count": 2,
+      "id": 33
+    },
+    "MOVS": {
+      "count": 76,
+      "id": 117
+    },
+    "NEQ": {
+      "count": 1,
+      "id": 96
+    },
+    "NOT": {
+      "count": 163,
+      "id": 84
+    },
+    "OR": {
+      "count": 25,
+      "id": 82
+    },
+    "POP_ALT": {
+      "count": 1361,
+      "id": 43
+    },
+    "POP_PRI": {
+      "count": 44,
+      "id": 42
+    },
+    "PROC": {
+      "count": 162,
+      "id": 46
+    },
+    "PUSH": {
+      "count": 166,
+      "id": 40
+    },
+    "PUSHADDR": {
+      "count": 844,
+      "id": 133
+    },
+    "PUSH_ALT": {
+      "count": 854,
+      "id": 37
+    },
+    "PUSH_C": {
+      "count": 7507,
+      "id": 39
+    },
+    "PUSH_PRI": {
+      "count": 3355,
+      "id": 36
+    },
+    "PUSH_S": {
+      "count": 1178,
+      "id": 41
+    },
+    "RETN": {
+      "count": 287,
+      "id": 48
+    },
+    "SDIV_ALT": {
+      "count": 17,
+      "id": 74
+    },
+    "SGEQ": {
+      "count": 3,
+      "id": 104
+    },
+    "SGRTR": {
+      "count": 20,
+      "id": 103
+    },
+    "SHL": {
+      "count": 10,
+      "id": 65
+    },
+    "SLEQ": {
+      "count": 3,
+      "id": 102
+    },
+    "SLESS": {
+      "count": 14,
+      "id": 101
+    },
+    "SMUL": {
+      "count": 1,
+      "id": 72
+    },
+    "SMUL_C": {
+      "count": 26,
+      "id": 88
+    },
+    "SREF_S_PRI": {
+      "count": 4,
+      "id": 21
+    },
+    "STACK": {
+      "count": 2611,
+      "id": 44
+    },
+    "STOR_I": {
+      "count": 786,
+      "id": 23
+    },
+    "STOR_PRI": {
+      "count": 74,
+      "id": 15
+    },
+    "STOR_S_PRI": {
+      "count": 407,
+      "id": 17
+    },
+    "SUB_ALT": {
+      "count": 28,
+      "id": 80
+    },
+    "SWAP_PRI": {
+      "count": 44,
+      "id": 131
+    },
+    "SWITCH": {
+      "count": 27,
+      "id": 129
+    },
+    "SYSREQ_C": {
+      "count": 2125,
+      "id": 123
+    },
+    "XCHG": {
+      "count": 91,
+      "id": 35
+    },
+    "XOR": {
+      "count": 1,
+      "id": 83
+    },
+    "ZERO_ALT": {
+      "count": 22,
+      "id": 90
+    },
+    "ZERO_PRI": {
+      "count": 887,
+      "id": 89
+    },
+    "ZERO_S": {
+      "count": 24,
+      "id": 92
+    }
+  },
+  "scope": "global boundary-only scan"
+}

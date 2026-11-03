@@ -1,0 +1,4043 @@
+{
+  "interest_symbols": [
+    {
+      "address": 808,
+      "dimensions": [
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          500
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_flFrameGain",
+      "start": 12380,
+      "tag": 3,
+      "vclass": 0
+    },
+    {
+      "address": 317872,
+      "dimensions": [
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_flStrafeAngle",
+      "start": 12380,
+      "tag": 3,
+      "vclass": 0
+    },
+    {
+      "address": 304408,
+      "dimensions": [
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_flStrafeEfficiency",
+      "start": 12380,
+      "tag": 3,
+      "vclass": 0
+    },
+    {
+      "address": 284212,
+      "dimensions": [
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_flStrafeGain",
+      "start": 12380,
+      "tag": 3,
+      "vclass": 0
+    },
+    {
+      "address": 290944,
+      "dimensions": [
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_flStrafeLoss",
+      "start": 12380,
+      "tag": 3,
+      "vclass": 0
+    },
+    {
+      "address": 265336,
+      "dimensions": [
+        [
+          0,
+          33
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_iFrameCount",
+      "start": 12380,
+      "tag": 0,
+      "vclass": 0
+    },
+    {
+      "address": 133072,
+      "dimensions": [
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          500
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_iFrameDirection",
+      "start": 12380,
+      "tag": 0,
+      "vclass": 0
+    },
+    {
+      "address": 199204,
+      "dimensions": [
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          500
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_iFrameStrafe",
+      "start": 12380,
+      "tag": 0,
+      "vclass": 0
+    },
+    {
+      "address": 66940,
+      "dimensions": [
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          500
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_iFrameWSAD",
+      "start": 12380,
+      "tag": 0,
+      "vclass": 0
+    },
+    {
+      "address": 311140,
+      "dimensions": [
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_iStrafeDesync",
+      "start": 12380,
+      "tag": 0,
+      "vclass": 0
+    },
+    {
+      "address": 277480,
+      "dimensions": [
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_iStrafeFrames",
+      "start": 12380,
+      "tag": 0,
+      "vclass": 0
+    },
+    {
+      "address": 297676,
+      "dimensions": [
+        [
+          0,
+          33
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "end": 332116,
+      "ident": 3,
+      "name": "g_iStrafeOverlaps",
+      "start": 12380,
+      "tag": 0,
+      "vclass": 0
+    }
+  ],
+  "not_observed": [],
+  "references": [
+    {
+      "C": 95120,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 454680,
+      "operation": "CONST_ALT",
+      "region": "cmdDetailed",
+      "symbol": "g_setStrafesDetailed"
+    },
+    {
+      "C": 95128,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "cmdDetailed",
+      "symbol": "id"
+    },
+    {
+      "C": 95160,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 454680,
+      "operation": "CONST_ALT",
+      "region": "cmdDetailed",
+      "symbol": "g_setStrafesDetailed"
+    },
+    {
+      "C": 95168,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "cmdDetailed",
+      "symbol": "id"
+    },
+    {
+      "C": 95204,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 456376,
+      "operation": "PUSH_C",
+      "region": "cmdDetailed",
+      "symbol": "g_cvarPrefix"
+    },
+    {
+      "C": 95228,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "PUSH_S",
+      "region": "cmdDetailed",
+      "symbol": "id"
+    },
+    {
+      "C": 95264,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 454680,
+      "operation": "CONST_ALT",
+      "region": "cmdDetailed",
+      "symbol": "g_setStrafesDetailed"
+    },
+    {
+      "C": 95272,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "cmdDetailed",
+      "symbol": "id"
+    },
+    {
+      "C": 95312,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 456376,
+      "operation": "PUSH_C",
+      "region": "cmdDetailed",
+      "symbol": "g_cvarPrefix"
+    },
+    {
+      "C": 95336,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "PUSH_S",
+      "region": "cmdDetailed",
+      "symbol": "id"
+    },
+    {
+      "C": 99740,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "PUSH_S",
+      "region": "fwCmdStart",
+      "symbol": "id"
+    },
+    {
+      "C": 99748,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "PUSH_C",
+      "region": "fwCmdStart",
+      "symbol": "MapName"
+    },
+    {
+      "C": 99800,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 344020,
+      "operation": "CONST_ALT",
+      "region": "fwCmdStart",
+      "symbol": "g_flFrameTime"
+    },
+    {
+      "C": 99808,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "fwCmdStart",
+      "symbol": "id"
+    },
+    {
+      "C": 99840,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 16,
+      "operation": "PUSH_S",
+      "region": "fwCmdStart",
+      "symbol": "uc_handle"
+    },
+    {
+      "C": 99920,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 344548,
+      "operation": "CONST_ALT",
+      "region": "fwCmdStart",
+      "symbol": "g_flSideMove"
+    },
+    {
+      "C": 99928,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "fwCmdStart",
+      "symbol": "id"
+    },
+    {
+      "C": 99952,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "PUSH_C",
+      "region": "fwCmdStart",
+      "symbol": "MapName"
+    },
+    {
+      "C": 99960,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 16,
+      "operation": "PUSH_S",
+      "region": "fwCmdStart",
+      "symbol": "uc_handle"
+    },
+    {
+      "C": 99996,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 344284,
+      "operation": "CONST_ALT",
+      "region": "fwCmdStart",
+      "symbol": "g_flForwardMove"
+    },
+    {
+      "C": 100004,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "fwCmdStart",
+      "symbol": "id"
+    },
+    {
+      "C": 100036,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 16,
+      "operation": "PUSH_S",
+      "region": "fwCmdStart",
+      "symbol": "uc_handle"
+    },
+    {
+      "C": 182608,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265336,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameCount"
+    },
+    {
+      "C": 182616,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 182672,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 324604,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeCount"
+    },
+    {
+      "C": 182680,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 182748,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -16,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "new_WSAD"
+    },
+    {
+      "C": 182768,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -16,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "new_WSAD"
+    },
+    {
+      "C": 182780,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 327244,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iButtons"
+    },
+    {
+      "C": 182788,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 182860,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -16,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "new_WSAD"
+    },
+    {
+      "C": 182880,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 327244,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iButtons"
+    },
+    {
+      "C": 182888,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 182960,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -16,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "new_WSAD"
+    },
+    {
+      "C": 182980,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 327244,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iButtons"
+    },
+    {
+      "C": 182988,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 183060,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -16,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "new_WSAD"
+    },
+    {
+      "C": 183080,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 327244,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iButtons"
+    },
+    {
+      "C": 183088,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 183172,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 183192,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 183204,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 327376,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iPrevButtons"
+    },
+    {
+      "C": 183212,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 183284,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 183304,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 327376,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iPrevButtons"
+    },
+    {
+      "C": 183312,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 183384,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 183404,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 327376,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iPrevButtons"
+    },
+    {
+      "C": 183412,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 183484,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 183504,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 327376,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iPrevButtons"
+    },
+    {
+      "C": 183512,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 183584,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 808,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flFrameGain"
+    },
+    {
+      "C": 183592,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 183628,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265336,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameCount"
+    },
+    {
+      "C": 183636,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 183676,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 20,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flGain"
+    },
+    {
+      "C": 183692,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 66940,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameWSAD"
+    },
+    {
+      "C": 183700,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 183736,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265336,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameCount"
+    },
+    {
+      "C": 183744,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 183784,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 183820,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 183872,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 183924,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 183980,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 133072,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameDirection"
+    },
+    {
+      "C": 183988,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184024,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265336,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameCount"
+    },
+    {
+      "C": 184032,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184072,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 332668,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flPrevAngles"
+    },
+    {
+      "C": 184080,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184128,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 332140,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flAngles"
+    },
+    {
+      "C": 184136,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184212,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 199204,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameStrafe"
+    },
+    {
+      "C": 184220,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184256,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265336,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameCount"
+    },
+    {
+      "C": 184264,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184304,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 324604,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeCount"
+    },
+    {
+      "C": 184312,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184344,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265336,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameCount"
+    },
+    {
+      "C": 184352,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184396,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 24,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "bGround"
+    },
+    {
+      "C": 184420,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 0,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MaxClients"
+    },
+    {
+      "C": 184440,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read/write",
+      "operand": -36,
+      "operation": "INC_S",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 184448,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 184456,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "MapName"
+    },
+    {
+      "C": 184476,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265336,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameCount"
+    },
+    {
+      "C": 184484,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184520,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 184528,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 184588,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265468,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADStart"
+    },
+    {
+      "C": 184596,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184632,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 184660,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265336,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameCount"
+    },
+    {
+      "C": 184668,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184716,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 266128,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADFrames"
+    },
+    {
+      "C": 184724,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184760,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 184800,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 266788,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADGain"
+    },
+    {
+      "C": 184808,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184844,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 184884,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 267448,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADLoss"
+    },
+    {
+      "C": 184892,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 184928,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 184968,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 268108,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADGoodFrames"
+    },
+    {
+      "C": 184976,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185012,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185052,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 268768,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADOverlaps"
+    },
+    {
+      "C": 185060,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185096,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185136,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 269428,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADDesync"
+    },
+    {
+      "C": 185144,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185180,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185220,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 270088,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADAngle"
+    },
+    {
+      "C": 185228,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185264,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185304,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -16,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "new_WSAD"
+    },
+    {
+      "C": 185312,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185340,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 185348,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185412,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265468,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADStart"
+    },
+    {
+      "C": 185420,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185456,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185484,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265336,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFrameCount"
+    },
+    {
+      "C": 185492,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185524,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 266128,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADFrames"
+    },
+    {
+      "C": 185532,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185568,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185608,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 266788,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADGain"
+    },
+    {
+      "C": 185616,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185652,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185692,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 267448,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADLoss"
+    },
+    {
+      "C": 185700,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185736,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185776,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 268108,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADGoodFrames"
+    },
+    {
+      "C": 185784,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185820,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185860,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 268768,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADOverlaps"
+    },
+    {
+      "C": 185868,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185904,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 185944,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 269428,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADDesync"
+    },
+    {
+      "C": 185952,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 185988,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186028,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 270088,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADAngle"
+    },
+    {
+      "C": 186036,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 186072,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186128,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 0,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MaxClients"
+    },
+    {
+      "C": 186148,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read/write",
+      "operand": -36,
+      "operation": "INC_S",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186156,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186164,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "MapName"
+    },
+    {
+      "C": 186184,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 186192,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186224,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 266128,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADFrames"
+    },
+    {
+      "C": 186232,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 186268,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186356,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 0,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MaxClients"
+    },
+    {
+      "C": 186376,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read/write",
+      "operand": -44,
+      "operation": "INC_S",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186384,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186392,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "MapName"
+    },
+    {
+      "C": 186412,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 186420,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186448,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265468,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADStart"
+    },
+    {
+      "C": 186456,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 186492,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186524,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -40,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iEarliestFrame"
+    },
+    {
+      "C": 186576,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186584,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot write",
+      "operand": -36,
+      "operation": "STOR_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 186596,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 265468,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADStart"
+    },
+    {
+      "C": 186604,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 186640,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 186668,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot write",
+      "operand": -40,
+      "operation": "STOR_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iEarliestFrame"
+    },
+    {
+      "C": 186696,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 28,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "bBadLastFrame"
+    },
+    {
+      "C": 186720,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 186748,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 20,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flGain"
+    },
+    {
+      "C": 186808,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 266788,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADGain"
+    },
+    {
+      "C": 186816,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 186852,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 186888,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 20,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flGain"
+    },
+    {
+      "C": 186940,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 268108,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADGoodFrames"
+    },
+    {
+      "C": 186948,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 186984,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 187040,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 267448,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADLoss"
+    },
+    {
+      "C": 187048,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 187084,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 187120,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 20,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flGain"
+    },
+    {
+      "C": 187172,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 187208,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "PUSH_S",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 187216,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MapName"
+    },
+    {
+      "C": 187232,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot write",
+      "operand": -44,
+      "operation": "STOR_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flCos"
+    },
+    {
+      "C": 187252,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "PUSH_S",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 187260,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MapName"
+    },
+    {
+      "C": 187276,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot write",
+      "operand": -48,
+      "operation": "STOR_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iVelRight"
+    },
+    {
+      "C": 187296,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 332668,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flPrevAngles"
+    },
+    {
+      "C": 187304,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 187352,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 332140,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flAngles"
+    },
+    {
+      "C": 187360,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 187424,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot write",
+      "operand": -52,
+      "operation": "STOR_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iTurnRight"
+    },
+    {
+      "C": 187444,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 332668,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flPrevAngles"
+    },
+    {
+      "C": 187452,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 187500,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 332140,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flAngles"
+    },
+    {
+      "C": 187508,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 187572,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot write",
+      "operand": -56,
+      "operation": "STOR_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flRightAngle"
+    },
+    {
+      "C": 187584,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 187604,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iVelRight"
+    },
+    {
+      "C": 187632,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -52,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iTurnRight"
+    },
+    {
+      "C": 187660,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 269428,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADDesync"
+    },
+    {
+      "C": 187668,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 187704,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 187752,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iVelRight"
+    },
+    {
+      "C": 187780,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -52,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iTurnRight"
+    },
+    {
+      "C": 187808,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 269428,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADDesync"
+    },
+    {
+      "C": 187816,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 187852,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 187908,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 187936,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iVelRight"
+    },
+    {
+      "C": 187964,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -52,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iTurnRight"
+    },
+    {
+      "C": 187992,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 269428,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADDesync"
+    },
+    {
+      "C": 188000,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 188036,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 188084,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iVelRight"
+    },
+    {
+      "C": 188112,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -52,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iTurnRight"
+    },
+    {
+      "C": 188140,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 269428,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADDesync"
+    },
+    {
+      "C": 188148,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 188184,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 188240,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 188268,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flCos"
+    },
+    {
+      "C": 188328,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -52,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iTurnRight"
+    },
+    {
+      "C": 188356,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 269428,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADDesync"
+    },
+    {
+      "C": 188364,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 188400,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 188448,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flCos"
+    },
+    {
+      "C": 188508,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -52,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iTurnRight"
+    },
+    {
+      "C": 188536,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 269428,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADDesync"
+    },
+    {
+      "C": 188544,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 188580,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 188636,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flCos"
+    },
+    {
+      "C": 188696,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -52,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iTurnRight"
+    },
+    {
+      "C": 188724,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 269428,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADDesync"
+    },
+    {
+      "C": 188732,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 188768,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 188816,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flCos"
+    },
+    {
+      "C": 188876,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -52,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iTurnRight"
+    },
+    {
+      "C": 188904,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 269428,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADDesync"
+    },
+    {
+      "C": 188912,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 188948,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 188996,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 270088,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADAngle"
+    },
+    {
+      "C": 189004,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 189040,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -36,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "iGainNum"
+    },
+    {
+      "C": 189076,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -56,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flRightAngle"
+    },
+    {
+      "C": 189136,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 189152,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 189184,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 189216,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_PRI",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 189268,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 0,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MaxClients"
+    },
+    {
+      "C": 189288,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read/write",
+      "operand": -44,
+      "operation": "INC_S",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189296,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189304,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "MapName"
+    },
+    {
+      "C": 189324,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 189332,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189364,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 268768,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADOverlaps"
+    },
+    {
+      "C": 189372,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 189408,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189480,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 0,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MaxClients"
+    },
+    {
+      "C": 189500,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read/write",
+      "operand": -44,
+      "operation": "INC_S",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189508,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189516,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "MapName"
+    },
+    {
+      "C": 189536,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 268768,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADOverlaps"
+    },
+    {
+      "C": 189544,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 189580,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189636,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 0,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MaxClients"
+    },
+    {
+      "C": 189648,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 0,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MaxClients"
+    },
+    {
+      "C": 189668,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read/write",
+      "operand": -48,
+      "operation": "INC_S",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189676,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189684,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "MapName"
+    },
+    {
+      "C": 189704,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot write",
+      "operand": -44,
+      "operation": "ZERO_S",
+      "region": "calcStrafes",
+      "symbol": "bFinished"
+    },
+    {
+      "C": 189716,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 24,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "bGround"
+    },
+    {
+      "C": 189740,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 189748,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189776,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 28,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "bBadLastFrame"
+    },
+    {
+      "C": 189832,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot write",
+      "operand": -44,
+      "operation": "STOR_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "bFinished"
+    },
+    {
+      "C": 189844,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 189852,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189880,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -16,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "new_WSAD"
+    },
+    {
+      "C": 189888,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 189960,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot write",
+      "operand": -44,
+      "operation": "STOR_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "bFinished"
+    },
+    {
+      "C": 189980,
+      "certainty": "confirmed address",
+      "coordinate": "FRM",
+      "effect": "frame address formation",
+      "operand": -32,
+      "operation": "ADDR_ALT",
+      "region": "calcStrafes",
+      "symbol": "prev_WSAD"
+    },
+    {
+      "C": 189988,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 190028,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot write",
+      "operand": -44,
+      "operation": "STOR_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "bFinished"
+    },
+    {
+      "C": 190040,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -44,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "bFinished"
+    },
+    {
+      "C": 190060,
+      "certainty": "confirmed",
+      "coordinate": "D",
+      "effect": "direct slot read",
+      "operand": 455416,
+      "operation": "LOAD_PRI",
+      "region": "calcStrafes",
+      "symbol": "g_cvarStrafesFullOverlap"
+    },
+    {
+      "C": 190076,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 266128,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADFrames"
+    },
+    {
+      "C": 190084,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190120,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 190152,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 268768,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADOverlaps"
+    },
+    {
+      "C": 190160,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190196,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 190276,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 270748,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeType"
+    },
+    {
+      "C": 190284,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190320,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 324604,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeCount"
+    },
+    {
+      "C": 190328,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190368,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 190384,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 277480,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeFrames"
+    },
+    {
+      "C": 190392,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190428,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 324604,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeCount"
+    },
+    {
+      "C": 190436,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190476,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 266128,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADFrames"
+    },
+    {
+      "C": 190484,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190520,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 190560,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 284212,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flStrafeGain"
+    },
+    {
+      "C": 190568,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190604,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 324604,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeCount"
+    },
+    {
+      "C": 190612,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190652,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 266788,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADGain"
+    },
+    {
+      "C": 190660,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190696,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 190736,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 290944,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flStrafeLoss"
+    },
+    {
+      "C": 190744,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190780,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 324604,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeCount"
+    },
+    {
+      "C": 190788,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190828,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 267448,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADLoss"
+    },
+    {
+      "C": 190836,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190872,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 190912,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 297676,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeOverlaps"
+    },
+    {
+      "C": 190920,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 190956,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 324604,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeCount"
+    },
+    {
+      "C": 190964,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191004,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 268768,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADOverlaps"
+    },
+    {
+      "C": 191012,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191048,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 191088,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 304408,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flStrafeEfficiency"
+    },
+    {
+      "C": 191096,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191132,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 324604,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeCount"
+    },
+    {
+      "C": 191140,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191180,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 268108,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADGoodFrames"
+    },
+    {
+      "C": 191188,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191224,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 191256,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MapName"
+    },
+    {
+      "C": 191284,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 266128,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADFrames"
+    },
+    {
+      "C": 191292,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191328,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 191360,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MapName"
+    },
+    {
+      "C": 191472,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 311140,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeDesync"
+    },
+    {
+      "C": 191480,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191516,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 324604,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeCount"
+    },
+    {
+      "C": 191524,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191564,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 269428,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iWSADDesync"
+    },
+    {
+      "C": 191572,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191608,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 191648,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 317872,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flStrafeAngle"
+    },
+    {
+      "C": 191656,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191692,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 324604,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeCount"
+    },
+    {
+      "C": 191700,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191740,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 270088,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flWSADAngle"
+    },
+    {
+      "C": 191748,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191784,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": -48,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "i"
+    },
+    {
+      "C": 191816,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 4,
+      "operation": "PUSH_C",
+      "region": "calcStrafes",
+      "symbol": "MapName"
+    },
+    {
+      "C": 191852,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 324604,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iStrafeCount"
+    },
+    {
+      "C": 191860,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191920,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 450984,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_setBeam"
+    },
+    {
+      "C": 191928,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191960,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 20,
+      "operation": "PUSH_S",
+      "region": "calcStrafes",
+      "symbol": "flGain"
+    },
+    {
+      "C": 191968,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "PUSH_S",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 191996,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 28,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "bBadLastFrame"
+    },
+    {
+      "C": 192020,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 331084,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flOrigin"
+    },
+    {
+      "C": 192028,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 192076,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 339268,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flMaxZ"
+    },
+    {
+      "C": 192084,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 192152,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 339268,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flMaxZ"
+    },
+    {
+      "C": 192160,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 192184,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 331084,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flOrigin"
+    },
+    {
+      "C": 192192,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 192248,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 16,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flHorSpeed"
+    },
+    {
+      "C": 192260,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 339136,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flMaxSpeed"
+    },
+    {
+      "C": 192268,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 192336,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 339136,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_flMaxSpeed"
+    },
+    {
+      "C": 192344,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 192368,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 16,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "flHorSpeed"
+    },
+    {
+      "C": 192384,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 327904,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_bInDuck"
+    },
+    {
+      "C": 192392,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    },
+    {
+      "C": 192424,
+      "certainty": "candidate",
+      "coordinate": "D",
+      "effect": "constant equals global D address; possible address materialization",
+      "operand": 339400,
+      "operation": "CONST_ALT",
+      "region": "calcStrafes",
+      "symbol": "g_iFramesInDuck"
+    },
+    {
+      "C": 192432,
+      "certainty": "confirmed",
+      "coordinate": "FRM",
+      "effect": "direct slot read",
+      "operand": 12,
+      "operation": "LOAD_S_PRI",
+      "region": "calcStrafes",
+      "symbol": "id"
+    }
+  ],
+  "scope": "three requested regions only",
+  "warning": "Exact numeric constant matches are candidates, not demonstrated array accesses or data dependencies."
+}

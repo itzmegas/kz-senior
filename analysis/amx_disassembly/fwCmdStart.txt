@@ -1,0 +1,58 @@
+VALIDATED structural region fwCmdStart C=[99728,100076)
+C:code-relative I:image-absolute D:data-relative FRM:signed frame-relative
+Raw operands remain signed decimal cells; no metric semantics inferred.
+C=099728 I=0104640 bytes=2e000000 op=46:PROC operands=[] length=4
+C=099732 I=0104644 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2762
+C=099736 I=0104648 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2764
+C=099740 I=0104652 bytes=290000000c000000 op=41:PUSH_S operands=[12] length=8 id (confirmed: direct slot read)
+C=099748 I=0104660 bytes=2700000004000000 op=39:PUSH_C operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=099756 I=0104668 bytes=7b00000020000000 op=123:SYSREQ_C operands=[32] length=8 native=is_user_alive
+C=099764 I=0104676 bytes=2c00000008000000 op=44:STACK operands=[8] length=8
+C=099772 I=0104684 bytes=54000000 op=84:NOT operands=[] length=4
+C=099776 I=0104688 bytes=35000000d4850100 op=53:JZER operands=[99796] length=8 target C=99796 inside-region
+C=099784 I=0104696 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2765
+C=099788 I=0104700 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=099792 I=0104704 bytes=30000000 op=48:RETN operands=[] length=4
+C=099796 I=0104708 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2767
+C=099800 I=0104712 bytes=0c000000d43f0500 op=12:CONST_ALT operands=[344020] length=8 g_flFrameTime (candidate: constant equals global D address; possible address materialization)
+C=099808 I=0104720 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=099816 I=0104728 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=099824 I=0104736 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=099828 I=0104740 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=099832 I=0104744 bytes=2700000001000000 op=39:PUSH_C operands=[1] length=8
+C=099840 I=0104752 bytes=2900000010000000 op=41:PUSH_S operands=[16] length=8 uc_handle (confirmed: direct slot read)
+C=099848 I=0104760 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=099856 I=0104768 bytes=7b0000004c000000 op=123:SYSREQ_C operands=[76] length=8 native=get_uc
+C=099864 I=0104776 bytes=2c0000000c000000 op=44:STACK operands=[12] length=8
+C=099872 I=0104784 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=099876 I=0104788 bytes=0b00000000007a44 op=11:CONST_PRI operands=[1148846080] length=8
+C=099884 I=0104796 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=099888 I=0104800 bytes=25000000 op=37:PUSH_ALT operands=[] length=4
+C=099892 I=0104804 bytes=2700000008000000 op=39:PUSH_C operands=[8] length=8
+C=099900 I=0104812 bytes=31000000d4000000 op=49:CALL operands=[212] length=8 target C=212 outside-region/global-boundary operator/(_:,Float:)
+C=099908 I=0104820 bytes=2b000000 op=43:POP_ALT operands=[] length=4
+C=099912 I=0104824 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=099916 I=0104828 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2769
+C=099920 I=0104832 bytes=0c000000e4410500 op=12:CONST_ALT operands=[344548] length=8 g_flSideMove (candidate: constant equals global D address; possible address materialization)
+C=099928 I=0104840 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=099936 I=0104848 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=099944 I=0104856 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=099948 I=0104860 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=099952 I=0104864 bytes=2700000004000000 op=39:PUSH_C operands=[4] length=8 MapName (candidate: constant equals global D address; possible address materialization)
+C=099960 I=0104872 bytes=2900000010000000 op=41:PUSH_S operands=[16] length=8 uc_handle (confirmed: direct slot read)
+C=099968 I=0104880 bytes=270000000c000000 op=39:PUSH_C operands=[12] length=8
+C=099976 I=0104888 bytes=7b0000004c000000 op=123:SYSREQ_C operands=[76] length=8 native=get_uc
+C=099984 I=0104896 bytes=2c00000010000000 op=44:STACK operands=[16] length=8
+C=099992 I=0104904 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2770
+C=099996 I=0104908 bytes=0c000000dc400500 op=12:CONST_ALT operands=[344284] length=8 g_flForwardMove (candidate: constant equals global D address; possible address materialization)
+C=100004 I=0104916 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=100012 I=0104924 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=100020 I=0104932 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=100024 I=0104936 bytes=24000000 op=36:PUSH_PRI operands=[] length=4
+C=100028 I=0104940 bytes=2700000003000000 op=39:PUSH_C operands=[3] length=8
+C=100036 I=0104948 bytes=2900000010000000 op=41:PUSH_S operands=[16] length=8 uc_handle (confirmed: direct slot read)
+C=100044 I=0104956 bytes=270000000c000000 op=39:PUSH_C operands=[12] length=8
+C=100052 I=0104964 bytes=7b0000004c000000 op=123:SYSREQ_C operands=[76] length=8 native=get_uc
+C=100060 I=0104972 bytes=2c00000010000000 op=44:STACK operands=[16] length=8
+C=100068 I=0104980 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=100072 I=0104984 bytes=30000000 op=48:RETN operands=[] length=4

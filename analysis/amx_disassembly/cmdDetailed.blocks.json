@@ -1,0 +1,102 @@
+[
+  {
+    "calls_C": [],
+    "end_C": 95156,
+    "indirect_unresolved": false,
+    "instructions": [
+      95108,
+      95112,
+      95116,
+      95120,
+      95128,
+      95136,
+      95144,
+      95148
+    ],
+    "start_C": 95108,
+    "successors_C": [
+      95156,
+      95260
+    ]
+  },
+  {
+    "calls_C": [
+      10512
+    ],
+    "end_C": 95252,
+    "indirect_unresolved": false,
+    "instructions": [
+      95156,
+      95160,
+      95168,
+      95176,
+      95184,
+      95188,
+      95192,
+      95196,
+      95200,
+      95204,
+      95212,
+      95220,
+      95228,
+      95236,
+      95244
+    ],
+    "start_C": 95156,
+    "successors_C": [
+      95252
+    ]
+  },
+  {
+    "calls_C": [],
+    "end_C": 95260,
+    "indirect_unresolved": false,
+    "instructions": [
+      95252
+    ],
+    "start_C": 95252,
+    "successors_C": [
+      95360
+    ]
+  },
+  {
+    "calls_C": [
+      10512
+    ],
+    "end_C": 95360,
+    "indirect_unresolved": false,
+    "instructions": [
+      95260,
+      95264,
+      95272,
+      95280,
+      95288,
+      95292,
+      95296,
+      95304,
+      95308,
+      95312,
+      95320,
+      95328,
+      95336,
+      95344,
+      95352
+    ],
+    "start_C": 95260,
+    "successors_C": [
+      95360
+    ]
+  },
+  {
+    "calls_C": [],
+    "end_C": 95376,
+    "indirect_unresolved": false,
+    "instructions": [
+      95360,
+      95364,
+      95372
+    ],
+    "start_C": 95360,
+    "successors_C": []
+  }
+]

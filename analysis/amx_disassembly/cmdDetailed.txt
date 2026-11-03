@@ -1,0 +1,45 @@
+VALIDATED structural region cmdDetailed C=[95108,95376)
+C:code-relative I:image-absolute D:data-relative FRM:signed frame-relative
+Raw operands remain signed decimal cells; no metric semantics inferred.
+C=095108 I=0100020 bytes=2e000000 op=46:PROC operands=[] length=4
+C=095112 I=0100024 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2636
+C=095116 I=0100028 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2638
+C=095120 I=0100032 bytes=0c00000018f00600 op=12:CONST_ALT operands=[454680] length=8 g_setStrafesDetailed (candidate: constant equals global D address; possible address materialization)
+C=095128 I=0100040 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=095136 I=0100048 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=095144 I=0100056 bytes=19000000 op=25:LIDX operands=[] length=4
+C=095148 I=0100060 bytes=350000001c740100 op=53:JZER operands=[95260] length=8 target C=95260 inside-region
+C=095156 I=0100068 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2640
+C=095160 I=0100072 bytes=0c00000018f00600 op=12:CONST_ALT operands=[454680] length=8 g_setStrafesDetailed (candidate: constant equals global D address; possible address materialization)
+C=095168 I=0100080 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=095176 I=0100088 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=095184 I=0100096 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=095188 I=0100100 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=095192 I=0100104 bytes=59000000 op=89:ZERO_PRI operands=[] length=4
+C=095196 I=0100108 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=095200 I=0100112 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2641
+C=095204 I=0100116 bytes=27000000b8f60600 op=39:PUSH_C operands=[456376] length=8 g_cvarPrefix (candidate: constant equals global D address; possible address materialization)
+C=095212 I=0100124 bytes=27000000acf11100 op=39:PUSH_C operands=[1175980] length=8
+C=095220 I=0100132 bytes=2700000005000000 op=39:PUSH_C operands=[5] length=8
+C=095228 I=0100140 bytes=290000000c000000 op=41:PUSH_S operands=[12] length=8 id (confirmed: direct slot read)
+C=095236 I=0100148 bytes=2700000010000000 op=39:PUSH_C operands=[16] length=8
+C=095244 I=0100156 bytes=3100000010290000 op=49:CALL operands=[10512] length=8 target C=10512 outside-region/global-boundary client_print_f
+C=095252 I=0100164 bytes=3300000080740100 op=51:JUMP operands=[95360] length=8 target C=95360 inside-region
+C=095260 I=0100172 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2645
+C=095264 I=0100176 bytes=0c00000018f00600 op=12:CONST_ALT operands=[454680] length=8 g_setStrafesDetailed (candidate: constant equals global D address; possible address materialization)
+C=095272 I=0100184 bytes=030000000c000000 op=3:LOAD_S_PRI operands=[12] length=8 id (confirmed: direct slot read)
+C=095280 I=0100192 bytes=7900000020000000 op=121:BOUNDS operands=[32] length=8
+C=095288 I=0100200 bytes=1b000000 op=27:IDXADDR operands=[] length=4
+C=095292 I=0100204 bytes=22000000 op=34:MOVE_ALT operands=[] length=4
+C=095296 I=0100208 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=095304 I=0100216 bytes=17000000 op=23:STOR_I operands=[] length=4
+C=095308 I=0100220 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2646
+C=095312 I=0100224 bytes=27000000b8f60600 op=39:PUSH_C operands=[456376] length=8 g_cvarPrefix (candidate: constant equals global D address; possible address materialization)
+C=095320 I=0100232 bytes=270000007cf21100 op=39:PUSH_C operands=[1176188] length=8
+C=095328 I=0100240 bytes=2700000006000000 op=39:PUSH_C operands=[6] length=8
+C=095336 I=0100248 bytes=290000000c000000 op=41:PUSH_S operands=[12] length=8 id (confirmed: direct slot read)
+C=095344 I=0100256 bytes=2700000010000000 op=39:PUSH_C operands=[16] length=8
+C=095352 I=0100264 bytes=3100000010290000 op=49:CALL operands=[10512] length=8 target C=10512 outside-region/global-boundary client_print_f
+C=095360 I=0100272 bytes=89000000 op=137:BREAK operands=[] length=4 debug-line-zero-based=2649
+C=095364 I=0100276 bytes=0b00000001000000 op=11:CONST_PRI operands=[1] length=8
+C=095372 I=0100284 bytes=30000000 op=48:RETN operands=[] length=4

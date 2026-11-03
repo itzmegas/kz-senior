@@ -1,0 +1,61 @@
+{
+  "amx_sha256": "d5e4ac324cf57feca12d2ced0ecec5eb53ca44686b5b9bb8cec93d41610ec433",
+  "amxx_sha256": "8398b9c2fbb61dfca7492c2767cd9a59fbd1be871f6b5bbf95e024c2d0ba541e",
+  "global_boundary_count": 51250,
+  "global_scan": "formats and boundaries only; not global CFG validation",
+  "header": {
+    "cip": -1,
+    "cod": 4912,
+    "dat": 337028,
+    "defsize": 8,
+    "flags": 2,
+    "hea": 1576260,
+    "libraries": 1888,
+    "magic": 61920,
+    "nametable": 1976,
+    "natives": 1000,
+    "publics": 56,
+    "pubvars": 1888,
+    "size": 1576260,
+    "stp": 1592644,
+    "tags": 1920,
+    "version": 8,
+    "vm": 8
+  },
+  "image_size": 1684270,
+  "regions": [
+    {
+      "blocks": 5,
+      "bytes": 268,
+      "control_targets": 4,
+      "end_C": 95376,
+      "instructions": 42,
+      "name": "cmdDetailed",
+      "start_C": 95108,
+      "status": "validated"
+    },
+    {
+      "blocks": 8,
+      "bytes": 348,
+      "control_targets": 2,
+      "end_C": 100076,
+      "instructions": 55,
+      "name": "fwCmdStart",
+      "start_C": 99728,
+      "status": "validated"
+    },
+    {
+      "blocks": 169,
+      "bytes": 9892,
+      "control_targets": 114,
+      "end_C": 192488,
+      "instructions": 1729,
+      "name": "calcStrafes",
+      "start_C": 182596,
+      "status": "validated"
+    }
+  ],
+  "source_revision": "8fc12670ea86470a0bfed4c35db5de73d3a39e8a",
+  "status": "validated",
+  "unresolved_indirect": []
+}
